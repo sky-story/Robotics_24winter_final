@@ -1,0 +1,206 @@
+[0.192s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros2_kortex/kortex_api -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api
+[8.367s] -- The C compiler identification is GNU 11.4.0
+[8.940s] -- The CXX compiler identification is GNU 11.4.0
+[9.005s] -- Detecting C compiler ABI info
+[9.832s] -- Detecting C compiler ABI info - done
+[9.893s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.893s] -- Detecting C compile features
+[9.899s] -- Detecting C compile features - done
+[9.919s] -- Detecting CXX compiler ABI info
+[10.776s] -- Detecting CXX compiler ABI info - done
+[10.840s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.841s] -- Detecting CXX compile features
+[10.842s] -- Detecting CXX compile features - done
+[10.949s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[12.661s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[13.260s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[14.735s] -- Configuring done
+[14.755s] -- Generating done
+[14.766s] -- Build files have been written to: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api
+[14.792s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros2_kortex/kortex_api -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api
+[14.794s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api -- -j8 -l8
+[26.029s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api -- -j8 -l8
+[26.033s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api
+[40.814s] -- Install configuration: ""
+[40.814s] -- Execute custom install script
+[40.814s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/FrameHandler.h
+[40.814s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/IRouterClient.h
+[40.815s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/ITransportClient.h
+[40.815s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/NotificationHandler.h
+[40.815s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/RouterClient.h
+[40.815s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/SessionManager.h
+[40.816s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/TransportClientTcp.h
+[40.816s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/TransportClientUdp.h
+[40.819s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/version.h
+[40.819s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/Frame.h
+[40.819s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/HeaderInfo.h
+[40.819s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/KBasicException.h
+[40.820s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/KDetailedException.h
+[40.820s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/KError.h
+[40.820s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/KinovaTcpUtilities.h
+[40.820s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/TransportBridgeDummy.h
+[40.821s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/version.h
+[40.821s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/ActuatorConfig.pb.h
+[40.825s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/ActuatorCyclic.pb.h
+[40.826s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/Base.pb.h
+[40.827s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/BaseCyclic.pb.h
+[40.827s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/Common.pb.h
+[40.827s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/ControlConfig.pb.h
+[40.833s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/DeviceConfig.pb.h
+[40.833s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/DeviceManager.pb.h
+[40.834s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/Errors.pb.h
+[40.834s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/Frame.pb.h
+[40.834s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/GripperConfig.pb.h
+[40.834s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/GripperCyclic.pb.h
+[40.835s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/GripperCyclicMessage.pb.h
+[40.835s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/InterconnectConfig.pb.h
+[40.835s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/InterconnectCyclic.pb.h
+[40.835s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/InterconnectCyclicMessage.pb.h
+[40.836s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/ProductConfiguration.pb.h
+[40.836s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/Session.pb.h
+[40.836s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/Test.pb.h
+[40.836s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/VisionConfig.pb.h
+[40.836s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/ActuatorConfigClientRpc.h
+[40.837s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/ActuatorCyclicClientRpc.h
+[40.837s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/BaseClientRpc.h
+[40.837s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/BaseCyclicClientRpc.h
+[40.837s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/ControlConfigClientRpc.h
+[40.837s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/DeviceConfigClientRpc.h
+[40.838s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/DeviceManagerClientRpc.h
+[40.842s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/GripperCyclicClientRpc.h
+[40.842s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/InterconnectConfigClientRpc.h
+[40.843s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/InterconnectCyclicClientRpc.h
+[40.843s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/SessionClientRpc.h
+[40.843s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/TestClientRpc.h
+[40.843s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/VisionConfigClientRpc.h
+[40.844s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/any.h
+[40.844s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/any.pb.h
+[40.844s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/api.pb.h
+[40.844s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/arena.h
+[40.844s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/arena_impl.h
+[40.845s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/arenastring.h
+[40.845s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/code_generator.h
+[40.845s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/command_line_interface.h
+[40.845s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/cpp/cpp_generator.h
+[40.849s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/csharp/csharp_generator.h
+[40.849s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/csharp/csharp_names.h
+[40.850s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/importer.h
+[40.850s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/java/java_generator.h
+[40.850s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/java/java_names.h
+[40.850s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/javanano/javanano_generator.h
+[40.851s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/js/js_generator.h
+[40.851s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/js/well_known_types_embed.h
+[40.851s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/objectivec/objectivec_generator.h
+[40.851s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/objectivec/objectivec_helpers.h
+[40.851s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/parser.h
+[40.852s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/php/php_generator.h
+[40.852s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/plugin.h
+[40.852s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/plugin.pb.h
+[40.852s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/python/python_generator.h
+[40.853s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/compiler/ruby/ruby_generator.h
+[40.853s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/descriptor.h
+[40.857s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/descriptor.pb.h
+[40.857s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/descriptor_database.h
+[40.858s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/duration.pb.h
+[40.858s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/dynamic_message.h
+[40.858s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/empty.pb.h
+[40.858s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/extension_set.h
+[40.859s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/field_mask.pb.h
+[40.859s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_enum_reflection.h
+[40.859s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_enum_util.h
+[40.859s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_message_reflection.h
+[40.859s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_message_table_driven.h
+[40.860s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/generated_message_util.h
+[40.860s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/has_bits.h
+[40.860s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/io/coded_stream.h
+[40.860s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/io/gzip_stream.h
+[40.861s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/io/printer.h
+[40.861s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/io/strtod.h
+[40.866s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/io/tokenizer.h
+[40.867s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/io/zero_copy_stream.h
+[40.867s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/io/zero_copy_stream_impl.h
+[40.867s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/io/zero_copy_stream_impl_lite.h
+[40.867s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/map.h
+[40.868s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/map_entry.h
+[40.868s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/map_entry_lite.h
+[40.868s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/map_field.h
+[40.868s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/map_field_inl.h
+[40.868s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/map_field_lite.h
+[40.869s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/map_type_handler.h
+[40.869s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/message.h
+[40.869s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/message_lite.h
+[40.869s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/metadata.h
+[40.870s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/metadata_lite.h
+[40.870s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/reflection.h
+[40.876s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/reflection_ops.h
+[40.877s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/repeated_field.h
+[40.877s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/service.h
+[40.877s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/source_context.pb.h
+[40.877s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/struct.pb.h
+[40.878s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomic_sequence_num.h
+[40.878s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops.h
+[40.878s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_arm64_gcc.h
+[40.878s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_arm_gcc.h
+[40.879s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_arm_qnx.h
+[40.879s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_generic_c11_atomic.h
+[40.879s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_generic_gcc.h
+[40.879s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_mips_gcc.h
+[40.879s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_power.h
+[40.880s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_ppc_gcc.h
+[40.880s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_solaris.h
+[40.886s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_tsan.h
+[40.992s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_x86_gcc.h
+[41.068s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_x86_msvc.h
+[41.161s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/bytestream.h
+[41.282s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/callback.h
+[41.399s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/casts.h
+[41.518s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/common.h
+[41.633s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/fastmem.h
+[41.748s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/hash.h
+[41.845s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/logging.h
+[41.906s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/macros.h
+[42.002s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/mutex.h
+[42.060s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/once.h
+[42.130s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/platform_macros.h
+[42.193s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/port.h
+[42.248s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/scoped_ptr.h
+[42.307s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/shared_ptr.h
+[42.362s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/singleton.h
+[42.420s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/status.h
+[42.527s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/stl_util.h
+[42.596s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/stringpiece.h
+[42.675s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/template_util.h
+[42.738s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/stubs/type_traits.h
+[42.816s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/text_format.h
+[42.882s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/timestamp.pb.h
+[42.964s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/type.pb.h
+[43.026s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/unknown_field_set.h
+[43.089s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/util/delimited_message_util.h
+[43.144s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/util/field_comparator.h
+[43.222s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/util/field_mask_util.h
+[43.274s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/util/json_util.h
+[43.376s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/util/message_differencer.h
+[43.436s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/util/time_util.h
+[43.536s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/util/type_resolver.h
+[43.616s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/util/type_resolver_util.h
+[43.735s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/wire_format.h
+[43.854s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/wire_format_lite.h
+[43.969s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/wire_format_lite_inl.h
+[44.046s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/include/kortex_api/google/protobuf/wrappers.pb.h
+[44.107s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/ament_index/resource_index/package_run_dependencies/kortex_api
+[44.166s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/ament_index/resource_index/parent_prefix_path/kortex_api
+[44.225s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/environment/ament_prefix_path.sh
+[44.287s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/environment/ament_prefix_path.dsv
+[44.347s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/environment/path.sh
+[44.437s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/environment/path.dsv
+[44.561s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/local_setup.bash
+[44.677s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/local_setup.sh
+[44.737s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/local_setup.zsh
+[44.842s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/local_setup.dsv
+[44.904s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/package.dsv
+[45.020s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/ament_index/resource_index/packages/kortex_api
+[45.125s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.234s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/cmake/kortex_apiConfig.cmake
+[45.302s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/cmake/kortex_apiConfig-version.cmake
+[45.359s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/kortex_api/share/kortex_api/package.xml
+[45.505s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api

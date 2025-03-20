@@ -1,0 +1,1 @@
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_bridge/ament_cmake_core/ros_gz_bridgeConfig-version.cmake

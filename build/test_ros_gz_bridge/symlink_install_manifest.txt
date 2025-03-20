@@ -1,0 +1,15 @@
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/ament_index/resource_index/package_run_dependencies/test_ros_gz_bridge
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/ament_index/resource_index/parent_prefix_path/test_ros_gz_bridge
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/test_ros_gz_bridge/environment/ament_prefix_path.sh
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/test_ros_gz_bridge/environment/ament_prefix_path.dsv
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/test_ros_gz_bridge/environment/path.sh
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/test_ros_gz_bridge/environment/path.dsv
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/test_ros_gz_bridge/local_setup.bash
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/test_ros_gz_bridge/local_setup.sh
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/test_ros_gz_bridge/local_setup.zsh
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/test_ros_gz_bridge/local_setup.dsv
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/test_ros_gz_bridge/package.dsv
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/ament_index/resource_index/packages/test_ros_gz_bridge
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/test_ros_gz_bridge/cmake/test_ros_gz_bridgeConfig.cmake
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/test_ros_gz_bridge/cmake/test_ros_gz_bridgeConfig-version.cmake
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/test_ros_gz_bridge/share/test_ros_gz_bridge/package.xml

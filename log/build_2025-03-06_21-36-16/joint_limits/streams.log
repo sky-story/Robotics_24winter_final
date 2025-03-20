@@ -1,0 +1,65 @@
+[0.098s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/joint_limits -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits
+[0.146s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.489s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.502s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.573s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.576s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.592s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.798s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.822s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.515s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.554s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.556s] -- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.557s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.622s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.623s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.623s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.627s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.796s] -- Configuring done
+[1.824s] -- Generating done
+[1.833s] -- Build files have been written to: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/joint_limits
+[1.849s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/joint_limits -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits
+[1.868s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/joint_limits -- -j8 -l8
+[2.052s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[2.066s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[2.088s] [ 14%] Built target ament_generate_version_header__joint_limits
+[2.117s] [ 42%] Built target gtest_main
+[2.141s] [ 71%] Built target gtest
+[2.201s] [35m[1mConsolidate compiler generated dependencies of target joint_limits_rosparam_test[0m
+[2.277s] [100%] Built target joint_limits_rosparam_test
+[2.319s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/joint_limits -- -j8 -l8
+[2.320s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/joint_limits
+[2.807s] -- Install configuration: ""
+[2.808s] -- Execute custom install script
+[2.812s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/include/joint_limits/joint_limits.hpp
+[2.813s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/include/joint_limits/joint_limits_rosparam.hpp
+[2.813s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+[2.813s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+[2.814s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits.hpp
+[2.814s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_rosparam.hpp
+[2.814s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/environment/library_path.sh
+[2.815s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/environment/library_path.dsv
+[2.815s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+[2.815s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+[2.816s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+[2.816s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+[2.817s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/environment/path.sh
+[2.819s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/environment/path.dsv
+[2.820s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/local_setup.bash
+[2.820s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/local_setup.sh
+[2.820s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/local_setup.zsh
+[2.820s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/local_setup.dsv
+[2.820s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/package.dsv
+[2.820s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+[2.821s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_targets-extras.cmake
+[2.821s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.821s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.821s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+[2.821s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+[2.821s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/package.xml
+[2.821s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/version.h
+[2.822s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport.cmake
+[2.829s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/joint_limits

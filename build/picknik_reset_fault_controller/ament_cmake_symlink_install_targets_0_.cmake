@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/picknik_reset_fault_controller/libpicknik_reset_fault_controller.so" "TARGETS" "picknik_reset_fault_controller" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

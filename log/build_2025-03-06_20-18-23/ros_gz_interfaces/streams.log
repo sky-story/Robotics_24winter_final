@@ -1,0 +1,792 @@
+[2.013s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros_gz/ros_gz_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces
+[2.704s] -- The C compiler identification is GNU 11.4.0
+[3.170s] -- The CXX compiler identification is GNU 11.4.0
+[3.232s] -- Detecting C compiler ABI info
+[4.014s] -- Detecting C compiler ABI info - done
+[4.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.132s] -- Detecting C compile features
+[4.136s] -- Detecting C compile features - done
+[4.154s] -- Detecting CXX compiler ABI info
+[4.865s] -- Detecting CXX compiler ABI info - done
+[4.949s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.950s] -- Detecting CXX compile features
+[4.956s] -- Detecting CXX compile features - done
+[5.098s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.283s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.574s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.502s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[8.261s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.488s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.681s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.877s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.646s] -- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)
+[9.748s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[9.835s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[10.002s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[14.304s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[14.440s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[14.525s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[14.628s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[19.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[21.083s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.334s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[21.392s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[21.573s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[21.574s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[21.574s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[21.575s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[21.785s] -- Found PythonExtra: .so  
+[23.520s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[23.615s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[23.796s] -- Configuring done
+[24.268s] -- Generating done
+[24.343s] -- Build files have been written to: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces
+[24.389s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros_gz/ros_gz_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces
+[24.390s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces -- -j8 -l8
+[30.929s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[50.379s] [  0%] Built target ros_gz_interfaces__cpp
+[50.875s] [  0%] Built target ament_cmake_python_symlink_ros_gz_interfaces
+[51.035s] [  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[70.079s] [  1%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/altimeter__type_support.cpp.o[0m
+[71.540s] [  2%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/dataframe__type_support.cpp.o[0m
+[73.258s] [  2%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity__type_support.cpp.o[0m
+[74.957s] [  3%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity_factory__type_support.cpp.o[0m
+[76.771s] [  3%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity_wrench__type_support.cpp.o[0m
+[78.357s] [  4%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/float32_array__type_support.cpp.o[0m
+[79.779s] [  4%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/gui_camera__type_support.cpp.o[0m
+[81.245s] [  5%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/joint_wrench__type_support.cpp.o[0m
+[82.513s] [  5%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/light__type_support.cpp.o[0m
+[83.669s] [  6%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/material_color__type_support.cpp.o[0m
+[84.902s] [  6%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/param_vec__type_support.cpp.o[0m
+[87.161s] [  7%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/sensor_noise__type_support.cpp.o[0m
+[88.403s] [  7%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/string_vec__type_support.cpp.o[0m
+[89.922s] [  8%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/track_visual__type_support.cpp.o[0m
+[91.358s] [  8%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/video_record__type_support.cpp.o[0m
+[92.717s] [  9%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/world_control__type_support.cpp.o[0m
+[94.102s] [  9%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/world_reset__type_support.cpp.o[0m
+[95.174s] [ 10%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/control_world__type_support.cpp.o[0m
+[96.542s] [ 10%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/delete_entity__type_support.cpp.o[0m
+[98.015s] [ 11%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.cpp.o[0m
+[99.413s] [ 11%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/spawn_entity__type_support.cpp.o[0m
+[100.727s] [ 11%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/contacts__type_support.cpp.o[0m
+[102.367s] [ 12%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/contact__type_support.cpp.o[0m
+[103.970s] [ 13%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[104.353s] [ 13%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_cpp
+[105.422s] running egg_info
+[105.427s] creating ros_gz_interfaces.egg-info
+[105.427s] writing ros_gz_interfaces.egg-info/PKG-INFO
+[105.427s] writing dependency_links to ros_gz_interfaces.egg-info/dependency_links.txt
+[105.427s] writing top-level names to ros_gz_interfaces.egg-info/top_level.txt
+[105.428s] writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+[105.435s] reading manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+[105.435s] writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+[105.619s] [ 13%] Built target ament_cmake_python_build_ros_gz_interfaces_egg
+[105.741s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[117.050s] [ 14%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/altimeter__type_support.cpp.o[0m
+[118.442s] [ 15%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity_factory__type_support.cpp.o[0m
+[119.753s] [ 15%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity_wrench__type_support.cpp.o[0m
+[121.256s] [ 16%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/float32_array__type_support.cpp.o[0m
+[122.884s] [ 16%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/gui_camera__type_support.cpp.o[0m
+[124.612s] [ 17%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/joint_wrench__type_support.cpp.o[0m
+[125.950s] [ 17%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/light__type_support.cpp.o[0m
+[127.670s] [ 18%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/material_color__type_support.cpp.o[0m
+[129.212s] [ 18%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/param_vec__type_support.cpp.o[0m
+[130.822s] [ 19%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/sensor_noise__type_support.cpp.o[0m
+[132.242s] [ 19%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/string_vec__type_support.cpp.o[0m
+[133.825s] [ 20%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/track_visual__type_support.cpp.o[0m
+[134.993s] [ 20%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/video_record__type_support.cpp.o[0m
+[136.329s] [ 20%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/world_control__type_support.cpp.o[0m
+[137.399s] [ 21%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/world_reset__type_support.cpp.o[0m
+[138.468s] [ 21%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/control_world__type_support.cpp.o[0m
+[139.531s] [ 22%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/delete_entity__type_support.cpp.o[0m
+[140.575s] [ 22%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/set_entity_pose__type_support.cpp.o[0m
+[141.711s] [ 23%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/spawn_entity__type_support.cpp.o[0m
+[142.832s] [ 23%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity__type_support.cpp.o[0m
+[143.939s] [ 24%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/dataframe__type_support.cpp.o[0m
+[145.150s] [ 24%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contacts__type_support.cpp.o[0m
+[146.491s] [ 25%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contact__type_support.cpp.o[0m
+[147.877s] [ 25%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[148.226s] [ 25%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp
+[148.298s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[155.660s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/altimeter__type_support.cpp.o[0m
+[156.500s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_wrench__type_support.cpp.o[0m
+[157.342s] [ 27%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/float32_array__type_support.cpp.o[0m
+[158.175s] [ 27%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o[0m
+[159.004s] [ 27%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o[0m
+[159.828s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/light__type_support.cpp.o[0m
+[160.695s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/material_color__type_support.cpp.o[0m
+[161.563s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/param_vec__type_support.cpp.o[0m
+[162.418s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/sensor_noise__type_support.cpp.o[0m
+[163.259s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/string_vec__type_support.cpp.o[0m
+[163.925s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/track_visual__type_support.cpp.o[0m
+[164.766s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/video_record__type_support.cpp.o[0m
+[165.485s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_control__type_support.cpp.o[0m
+[166.289s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_reset__type_support.cpp.o[0m
+[167.080s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/control_world__type_support.cpp.o[0m
+[167.857s] [ 33%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o[0m
+[168.611s] [ 33%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o[0m
+[169.458s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o[0m
+[170.311s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o[0m
+[171.308s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity__type_support.cpp.o[0m
+[172.242s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/dataframe__type_support.cpp.o[0m
+[173.031s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contacts__type_support.cpp.o[0m
+[173.959s] [ 37%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contact__type_support.cpp.o[0m
+[174.855s] [ 37%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_cpp.so[0m
+[175.055s] [ 37%] Built target ros_gz_interfaces__rosidl_typesupport_cpp
+[175.139s] [ 38%] [34m[1mGenerating C code for ROS interfaces[0m
+[191.179s] [ 38%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/altimeter__functions.c.o[0m
+[191.411s] [ 39%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/float32_array__functions.c.o[0m
+[191.638s] [ 39%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/gui_camera__functions.c.o[0m
+[191.886s] [ 40%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/joint_wrench__functions.c.o[0m
+[192.134s] [ 40%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/light__functions.c.o[0m
+[192.379s] [ 41%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/material_color__functions.c.o[0m
+[192.622s] [ 41%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/param_vec__functions.c.o[0m
+[192.849s] [ 42%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/sensor_noise__functions.c.o[0m
+[193.137s] [ 42%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/string_vec__functions.c.o[0m
+[193.388s] [ 43%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/track_visual__functions.c.o[0m
+[193.623s] [ 43%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/video_record__functions.c.o[0m
+[193.860s] [ 44%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_control__functions.c.o[0m
+[194.095s] [ 44%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_reset__functions.c.o[0m
+[194.317s] [ 45%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/control_world__functions.c.o[0m
+[194.571s] [ 45%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/delete_entity__functions.c.o[0m
+[194.847s] [ 46%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/set_entity_pose__functions.c.o[0m
+[195.126s] [ 46%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/spawn_entity__functions.c.o[0m
+[195.386s] [ 46%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_wrench__functions.c.o[0m
+[195.634s] [ 47%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_factory__functions.c.o[0m
+[195.868s] [ 47%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity__functions.c.o[0m
+[196.081s] [ 48%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/dataframe__functions.c.o[0m
+[196.311s] [ 48%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contacts__functions.c.o[0m
+[196.522s] [ 49%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contact__functions.c.o[0m
+[196.766s] [ 50%] [32m[1mLinking C shared library libros_gz_interfaces__rosidl_generator_c.so[0m
+[196.984s] [ 50%] Built target ros_gz_interfaces__rosidl_generator_c
+[197.074s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[206.897s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/altimeter__type_support_c.cpp.o[0m
+[206.912s] [ 52%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contact__type_support_c.cpp.o[0m
+[207.969s] [ 53%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_factory__type_support_c.cpp.o[0m
+[208.068s] [ 53%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_wrench__type_support_c.cpp.o[0m
+[209.197s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/float32_array__type_support_c.cpp.o[0m
+[209.323s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity__type_support_c.cpp.o[0m
+[209.337s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support_c.cpp.o[0m
+[209.355s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/gui_camera__type_support_c.cpp.o[0m
+[210.510s] [ 56%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/dataframe__type_support_c.cpp.o[0m
+[210.904s] [ 56%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contacts__type_support_c.cpp.o[0m
+[211.069s] [ 56%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/light__type_support_c.cpp.o[0m
+[211.189s] [ 57%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/material_color__type_support_c.cpp.o[0m
+[212.739s] [ 58%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/video_record__type_support_c.cpp.o[0m
+[213.811s] [ 58%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_control__type_support_c.cpp.o[0m
+[214.795s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_reset__type_support_c.cpp.o[0m
+[215.713s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/control_world__type_support_c.cpp.o[0m
+[216.605s] [ 60%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/delete_entity__type_support_c.cpp.o[0m
+[217.287s] [ 60%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support_c.cpp.o[0m
+[217.987s] [ 61%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support_c.cpp.o[0m
+[218.732s] [ 61%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/track_visual__type_support_c.cpp.o[0m
+[219.287s] [ 61%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/string_vec__type_support_c.cpp.o[0m
+[219.832s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/sensor_noise__type_support_c.cpp.o[0m
+[220.370s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/param_vec__type_support_c.cpp.o[0m
+[221.066s] [ 62%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[221.318s] [ 62%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c
+[221.381s] [ 63%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[221.382s] [ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[229.174s] [ 64%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/altimeter__type_support.cpp.o[0m
+[229.199s] [ 65%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/contact__type_support.cpp.o[0m
+[229.480s] [ 65%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity_wrench__type_support.cpp.o[0m
+[229.643s] [ 65%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/float32_array__type_support.cpp.o[0m
+[229.801s] [ 65%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o[0m
+[230.037s] [ 66%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/light__type_support.cpp.o[0m
+[230.286s] [ 66%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/material_color__type_support.cpp.o[0m
+[230.463s] [ 67%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/param_vec__type_support.cpp.o[0m
+[230.683s] [ 67%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/sensor_noise__type_support.cpp.o[0m
+[230.915s] [ 68%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/string_vec__type_support.cpp.o[0m
+[231.149s] [ 68%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/track_visual__type_support.cpp.o[0m
+[231.325s] [ 69%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/video_record__type_support.cpp.o[0m
+[231.488s] [ 69%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/altimeter__type_support.c.o[0m
+[231.533s] [ 69%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/world_control__type_support.cpp.o[0m
+[231.661s] [ 70%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/contact__type_support.c.o[0m
+[231.677s] [ 71%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/world_reset__type_support.cpp.o[0m
+[231.813s] [ 72%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o[0m
+[231.858s] [ 73%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/dataframe__type_support.c.o[0m
+[231.958s] [ 73%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/control_world__type_support.cpp.o[0m
+[232.026s] [ 73%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity__type_support.c.o[0m
+[232.101s] [ 74%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o[0m
+[232.182s] [ 75%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity_factory__type_support.c.o[0m
+[232.235s] [ 75%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o[0m
+[232.334s] [ 75%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity_wrench__type_support.c.o[0m
+[232.376s] [ 76%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o[0m
+[232.494s] [ 77%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/float32_array__type_support.c.o[0m
+[232.511s] [ 78%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o[0m
+[232.639s] [ 78%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity__type_support.cpp.o[0m
+[232.661s] [ 78%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/light__type_support.c.o[0m
+[232.783s] [ 79%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/dataframe__type_support.cpp.o[0m
+[232.825s] [ 79%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/param_vec__type_support.c.o[0m
+[232.925s] [ 79%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/contacts__type_support.cpp.o[0m
+[232.994s] [ 79%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/string_vec__type_support.c.o[0m
+[233.062s] [ 79%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_c.so[0m
+[233.157s] [ 80%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/track_visual__type_support.c.o[0m
+[233.314s] [ 80%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/video_record__type_support.c.o[0m
+[233.373s] [ 80%] Built target ros_gz_interfaces__rosidl_typesupport_c
+[233.487s] [ 80%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/world_reset__type_support.c.o[0m
+[233.624s] [ 81%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/control_world__type_support.c.o[0m
+[233.770s] [ 81%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/delete_entity__type_support.c.o[0m
+[233.919s] [ 81%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.c.o[0m
+[234.039s] [ 82%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support.c.o[0m
+[234.180s] [ 83%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/world_control__type_support.c.o[0m
+[234.324s] [ 84%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/sensor_noise__type_support.c.o[0m
+[234.452s] [ 85%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/material_color__type_support.c.o[0m
+[234.599s] [ 86%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support.c.o[0m
+[234.750s] [ 86%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/gui_camera__type_support.c.o[0m
+[234.880s] [ 86%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/contacts__type_support.c.o[0m
+[235.033s] [ 86%] [32m[1mLinking C shared library libros_gz_interfaces__rosidl_typesupport_introspection_c.so[0m
+[235.207s] [ 86%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c
+[235.319s] [ 86%] Built target ros_gz_interfaces
+[235.458s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[250.590s] [ 86%] Built target ros_gz_interfaces__py
+[250.693s] [ 86%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_altimeter_s.c.o[0m
+[250.695s] [ 87%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contact_s.c.o[0m
+[250.998s] [ 87%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_float32_array_s.c.o[0m
+[251.055s] [ 88%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_gui_camera_s.c.o[0m
+[251.346s] [ 89%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_wrench_s.c.o[0m
+[251.351s] [ 89%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_joint_wrench_s.c.o[0m
+[251.416s] [ 90%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_light_s.c.o[0m
+[251.709s] [ 90%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_material_color_s.c.o[0m
+[251.731s] [ 91%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_param_vec_s.c.o[0m
+[251.806s] [ 91%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_sensor_noise_s.c.o[0m
+[252.057s] [ 92%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_string_vec_s.c.o[0m
+[252.132s] [ 92%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_track_visual_s.c.o[0m
+[252.199s] [ 93%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_video_record_s.c.o[0m
+[252.256s] [ 93%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_control_s.c.o[0m
+[252.393s] [ 93%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_factory_s.c.o[0m
+[252.569s] [ 94%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_reset_s.c.o[0m
+[252.619s] [ 94%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_control_world_s.c.o[0m
+[252.672s] [ 95%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_delete_entity_s.c.o[0m
+[252.815s] [ 95%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_set_entity_pose_s.c.o[0m
+[253.021s] [ 96%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_s.c.o[0m
+[253.040s] [ 97%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_spawn_entity_s.c.o[0m
+[253.261s] [ 97%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_dataframe_s.c.o[0m
+[253.263s] [ 97%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contacts_s.c.o[0m
+[253.680s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/libros_gz_interfaces__rosidl_generator_py.so[0m
+[253.871s] [ 97%] Built target ros_gz_interfaces__rosidl_generator_py
+[254.002s] [ 98%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[254.042s] [ 99%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[254.119s] [100%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[254.560s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[254.715s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[254.856s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[254.864s] [100%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[254.963s] [100%] Built target ros_gz_interfaces__rosidl_typesupport_c__pyext
+[255.097s] [100%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext
+[255.150s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces -- -j8 -l8
+[255.158s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces
+[255.201s] -- Install configuration: ""
+[255.203s] -- Execute custom install script
+[255.203s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros_gz_interfaces
+[255.252s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/altimeter.h
+[255.297s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contact.h
+[255.342s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contacts.h
+[255.375s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/dataframe.h
+[255.406s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__functions.h
+[255.438s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__struct.h
+[255.470s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.h
+[255.501s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__functions.h
+[255.533s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__struct.h
+[255.564s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__type_support.h
+[255.595s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__functions.h
+[255.626s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__struct.h
+[255.659s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__type_support.h
+[255.690s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__functions.h
+[255.734s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__struct.h
+[255.779s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.h
+[255.827s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__functions.h
+[255.875s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__struct.h
+[255.922s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__type_support.h
+[255.972s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__functions.h
+[256.018s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__struct.h
+[256.063s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__type_support.h
+[256.097s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__functions.h
+[256.141s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__struct.h
+[256.184s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__type_support.h
+[256.228s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__functions.h
+[256.273s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__struct.h
+[256.320s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__type_support.h
+[256.367s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__functions.h
+[256.413s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__struct.h
+[256.498s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__type_support.h
+[256.547s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__functions.h
+[256.593s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__struct.h
+[256.645s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__type_support.h
+[256.692s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__functions.h
+[256.733s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__struct.h
+[256.775s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__type_support.h
+[256.836s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__functions.h
+[256.896s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__struct.h
+[256.945s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__type_support.h
+[256.990s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__functions.h
+[257.037s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__struct.h
+[257.079s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__type_support.h
+[257.122s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__functions.h
+[257.170s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__struct.h
+[257.220s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__type_support.h
+[257.276s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__functions.h
+[257.325s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__struct.h
+[257.378s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__type_support.h
+[257.443s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__functions.h
+[257.491s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__struct.h
+[257.540s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__type_support.h
+[257.589s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__functions.h
+[257.642s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__struct.h
+[257.731s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__type_support.h
+[257.787s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__functions.h
+[257.831s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__struct.h
+[257.884s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__type_support.h
+[257.946s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__functions.h
+[258.046s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__struct.h
+[258.108s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__type_support.h
+[258.196s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity.h
+[258.263s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_factory.h
+[258.308s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_wrench.h
+[258.352s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/float32_array.h
+[258.399s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/gui_camera.h
+[258.444s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/joint_wrench.h
+[258.492s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.h
+[258.541s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/material_color.h
+[258.590s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/param_vec.h
+[258.640s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_generator_c__visibility_control.h
+[258.692s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/sensor_noise.h
+[258.745s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/string_vec.h
+[258.793s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/track_visual.h
+[258.838s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/video_record.h
+[258.887s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_control.h
+[258.932s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_reset.h
+[258.986s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/control_world.h
+[259.046s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/delete_entity.h
+[259.105s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__functions.h
+[259.156s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__struct.h
+[259.203s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__type_support.h
+[259.248s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__functions.h
+[259.304s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__struct.h
+[259.351s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__type_support.h
+[259.412s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__functions.h
+[259.466s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__struct.h
+[259.510s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.h
+[259.557s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__functions.h
+[259.606s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__struct.h
+[259.654s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__type_support.h
+[259.707s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/set_entity_pose.h
+[259.758s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/spawn_entity.h
+[259.813s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/library_path.sh
+[259.860s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/library_path.dsv
+[259.923s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_fastrtps_c.h
+[259.972s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_c.h
+[260.028s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h
+[260.083s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_fastrtps_c.h
+[260.137s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[260.185s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_c.h
+[260.243s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_fastrtps_c.h
+[260.287s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_fastrtps_c.h
+[260.339s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_c.h
+[260.390s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_c.h
+[260.437s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_c.h
+[260.491s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_fastrtps_c.h
+[260.543s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_fastrtps_c.h
+[260.591s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_fastrtps_c.h
+[260.644s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_c.h
+[260.695s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_c.h
+[260.744s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_c.h
+[260.800s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_c.h
+[260.854s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_c.h
+[260.912s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[260.960s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_c.h
+[261.012s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_c.h
+[261.066s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_c.h
+[261.127s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_c.h
+[261.184s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/altimeter.hpp
+[261.233s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contact.hpp
+[261.288s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contacts.hpp
+[261.341s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/dataframe.hpp
+[261.393s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp
+[261.454s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__struct.hpp
+[261.497s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__traits.hpp
+[261.542s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.hpp
+[261.593s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__builder.hpp
+[261.644s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__struct.hpp
+[261.691s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__traits.hpp
+[261.746s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__type_support.hpp
+[261.799s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__builder.hpp
+[261.855s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__struct.hpp
+[261.898s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__traits.hpp
+[261.955s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__type_support.hpp
+[262.016s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__builder.hpp
+[262.068s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__struct.hpp
+[262.113s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__traits.hpp
+[262.160s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.hpp
+[262.208s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__builder.hpp
+[262.256s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__struct.hpp
+[262.305s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__traits.hpp
+[262.352s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__type_support.hpp
+[262.405s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__builder.hpp
+[262.454s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__struct.hpp
+[262.504s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__traits.hpp
+[262.554s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__type_support.hpp
+[262.603s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__builder.hpp
+[262.648s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__struct.hpp
+[262.695s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__traits.hpp
+[262.746s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__type_support.hpp
+[262.791s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__builder.hpp
+[262.837s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__struct.hpp
+[262.885s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__traits.hpp
+[262.932s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__type_support.hpp
+[262.980s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__builder.hpp
+[263.026s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__struct.hpp
+[263.071s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__traits.hpp
+[263.117s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__type_support.hpp
+[263.164s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__builder.hpp
+[263.210s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__struct.hpp
+[263.256s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__traits.hpp
+[263.302s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__type_support.hpp
+[263.348s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__builder.hpp
+[263.394s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__struct.hpp
+[263.449s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__traits.hpp
+[263.538s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__type_support.hpp
+[263.551s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__builder.hpp
+[263.606s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__struct.hpp
+[263.655s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__traits.hpp
+[263.701s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__type_support.hpp
+[263.748s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__builder.hpp
+[263.793s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__struct.hpp
+[263.839s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__traits.hpp
+[263.884s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__type_support.hpp
+[263.930s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__builder.hpp
+[263.976s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__struct.hpp
+[264.021s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__traits.hpp
+[264.067s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__type_support.hpp
+[264.114s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__builder.hpp
+[264.160s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__struct.hpp
+[264.208s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__traits.hpp
+[264.253s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__type_support.hpp
+[264.298s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__builder.hpp
+[264.344s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__struct.hpp
+[264.389s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__traits.hpp
+[264.435s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__type_support.hpp
+[264.480s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__builder.hpp
+[264.525s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__struct.hpp
+[264.572s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__traits.hpp
+[264.620s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__type_support.hpp
+[264.666s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__builder.hpp
+[264.711s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__struct.hpp
+[264.758s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__traits.hpp
+[264.803s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__type_support.hpp
+[264.848s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__builder.hpp
+[264.893s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__struct.hpp
+[264.940s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__traits.hpp
+[264.984s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__type_support.hpp
+[265.031s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity.hpp
+[265.084s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_factory.hpp
+[265.143s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_wrench.hpp
+[265.193s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/float32_array.hpp
+[265.246s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/gui_camera.hpp
+[265.289s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/joint_wrench.hpp
+[265.333s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.hpp
+[265.380s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/material_color.hpp
+[265.426s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/param_vec.hpp
+[265.474s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[265.518s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/sensor_noise.hpp
+[265.563s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/string_vec.hpp
+[265.608s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/track_visual.hpp
+[265.655s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/video_record.hpp
+[265.699s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_control.hpp
+[265.743s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_reset.hpp
+[265.788s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/control_world.hpp
+[265.833s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/delete_entity.hpp
+[265.879s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__builder.hpp
+[265.925s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__struct.hpp
+[265.971s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__traits.hpp
+[266.015s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__type_support.hpp
+[266.058s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__builder.hpp
+[266.103s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__struct.hpp
+[266.147s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__traits.hpp
+[266.189s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__type_support.hpp
+[266.232s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__builder.hpp
+[266.276s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__struct.hpp
+[266.320s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__traits.hpp
+[266.362s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.hpp
+[266.406s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__builder.hpp
+[266.449s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__struct.hpp
+[266.497s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__traits.hpp
+[266.542s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__type_support.hpp
+[266.585s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/set_entity_pose.hpp
+[266.633s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/spawn_entity.hpp
+[266.682s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_fastrtps_cpp.hpp
+[266.729s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_cpp.hpp
+[266.775s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp
+[266.820s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_fastrtps_cpp.hpp
+[266.865s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[266.909s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_cpp.hpp
+[266.954s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[266.999s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_fastrtps_cpp.hpp
+[267.044s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[267.089s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[267.134s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_cpp.hpp
+[267.187s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_fastrtps_cpp.hpp
+[267.244s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_fastrtps_cpp.hpp
+[267.286s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_fastrtps_cpp.hpp
+[267.333s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_cpp.hpp
+[267.378s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_cpp.hpp
+[267.424s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_cpp.hpp
+[267.469s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_cpp.hpp
+[267.514s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_cpp.hpp
+[267.561s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[267.605s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_cpp.hpp
+[267.650s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_cpp.hpp
+[267.695s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[267.741s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_cpp.hpp
+[267.788s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_introspection_c.h
+[267.833s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_introspection_c.h
+[267.879s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_c.h
+[267.926s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_introspection_c.h
+[267.971s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[268.016s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_c.h
+[268.062s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_introspection_c.h
+[268.107s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_introspection_c.h
+[268.152s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_c.h
+[268.196s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_c.h
+[268.242s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_introspection_c.h
+[268.288s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_introspection_c.h
+[268.332s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_introspection_c.h
+[268.381s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_introspection_c.h
+[268.431s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_c.h
+[268.476s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_c.h
+[268.524s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_c.h
+[268.570s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_c.h
+[268.615s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_c.h
+[268.660s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[268.705s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_c.h
+[268.751s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_c.h
+[268.796s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_c.h
+[268.844s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_c.h
+[268.891s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_introspection_cpp.hpp
+[268.938s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_introspection_cpp.hpp
+[268.982s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp
+[269.028s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_introspection_cpp.hpp
+[269.074s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[269.119s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_cpp.hpp
+[269.185s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_introspection_cpp.hpp
+[269.234s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_introspection_cpp.hpp
+[269.278s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_cpp.hpp
+[269.323s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_cpp.hpp
+[269.369s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_introspection_cpp.hpp
+[269.414s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_introspection_cpp.hpp
+[269.459s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_introspection_cpp.hpp
+[269.505s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_introspection_cpp.hpp
+[269.549s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_cpp.hpp
+[269.594s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_cpp.hpp
+[269.640s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_cpp.hpp
+[269.684s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_cpp.hpp
+[269.731s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_cpp.hpp
+[269.784s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_cpp.hpp
+[269.838s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_cpp.hpp
+[269.886s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_cpp.hpp
+[269.939s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_cpp.hpp
+[269.986s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/pythonpath.sh
+[270.031s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/pythonpath.dsv
+[270.077s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces-0.244.16-py3.10.egg-info/PKG-INFO
+[270.122s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces-0.244.16-py3.10.egg-info/SOURCES.txt
+[270.167s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces-0.244.16-py3.10.egg-info/dependency_links.txt
+[270.213s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces-0.244.16-py3.10.egg-info/top_level.txt
+[270.263s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/__init__.py
+[270.309s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_c.c
+[270.356s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[270.399s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[270.444s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/libros_gz_interfaces__rosidl_generator_py.so
+[270.489s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/__init__.py
+[270.535s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_altimeter.py
+[270.581s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_altimeter_s.c
+[270.628s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contact.py
+[270.672s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contact_s.c
+[270.718s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contacts.py
+[270.763s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contacts_s.c
+[270.810s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_dataframe.py
+[270.855s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_dataframe_s.c
+[270.901s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity.py
+[270.945s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_factory.py
+[270.990s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_factory_s.c
+[271.035s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_s.c
+[271.082s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_wrench.py
+[271.129s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_wrench_s.c
+[271.176s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_float32_array.py
+[271.220s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_float32_array_s.c
+[271.269s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_gui_camera.py
+[271.325s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_gui_camera_s.c
+[271.384s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_joint_wrench.py
+[271.433s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_joint_wrench_s.c
+[271.496s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_light.py
+[271.560s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_light_s.c
+[271.623s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_material_color.py
+[271.667s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_material_color_s.c
+[271.722s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_param_vec.py
+[271.778s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_param_vec_s.c
+[271.824s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_sensor_noise.py
+[271.873s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_sensor_noise_s.c
+[271.920s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_string_vec.py
+[271.964s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_string_vec_s.c
+[272.009s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_track_visual.py
+[272.054s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_track_visual_s.c
+[272.101s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_video_record.py
+[272.150s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_video_record_s.c
+[272.195s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_control.py
+[272.239s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_control_s.c
+[272.285s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_reset.py
+[272.330s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_reset_s.c
+[272.376s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[272.424s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[272.470s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[272.516s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/__init__.py
+[272.563s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_control_world.py
+[272.607s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_control_world_s.c
+[272.653s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_delete_entity.py
+[272.699s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_delete_entity_s.c
+[272.746s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_set_entity_pose.py
+[272.793s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_set_entity_pose_s.c
+[272.837s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_spawn_entity.py
+[272.884s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_spawn_entity_s.c
+[272.929s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[272.931s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[272.931s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[272.932s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Altimeter.idl
+[272.978s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contact.idl
+[273.024s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contacts.idl
+[273.070s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Dataframe.idl
+[273.117s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Entity.idl
+[273.162s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityFactory.idl
+[273.211s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityWrench.idl
+[273.262s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Float32Array.idl
+[273.307s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/GuiCamera.idl
+[273.353s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/JointWrench.idl
+[273.398s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Light.idl
+[273.446s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/MaterialColor.idl
+[273.493s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/ParamVec.idl
+[273.541s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/SensorNoise.idl
+[273.588s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/StringVec.idl
+[273.634s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/TrackVisual.idl
+[273.680s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/VideoRecord.idl
+[273.726s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldControl.idl
+[273.771s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldReset.idl
+[273.817s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld.idl
+[273.869s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity.idl
+[273.917s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose.idl
+[273.971s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity.idl
+[274.027s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Altimeter.msg
+[274.073s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contact.msg
+[274.120s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contacts.msg
+[274.171s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Dataframe.msg
+[274.235s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Entity.msg
+[274.293s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityFactory.msg
+[274.339s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityWrench.msg
+[274.390s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Float32Array.msg
+[274.457s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/GuiCamera.msg
+[274.507s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/JointWrench.msg
+[274.552s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Light.msg
+[274.597s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/MaterialColor.msg
+[274.653s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/ParamVec.msg
+[274.702s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/SensorNoise.msg
+[274.754s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/StringVec.msg
+[274.799s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/TrackVisual.msg
+[274.845s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/VideoRecord.msg
+[274.890s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldControl.msg
+[274.936s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldReset.msg
+[274.982s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld.srv
+[275.028s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld_Request.msg
+[275.076s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld_Response.msg
+[275.124s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity.srv
+[275.171s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity_Request.msg
+[275.216s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity_Response.msg
+[275.255s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose.srv
+[275.302s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose_Request.msg
+[275.350s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose_Response.msg
+[275.395s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity.srv
+[275.440s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity_Request.msg
+[275.487s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity_Response.msg
+[275.532s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ament_index/resource_index/package_run_dependencies/ros_gz_interfaces
+[275.574s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ament_index/resource_index/parent_prefix_path/ros_gz_interfaces
+[275.617s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/ament_prefix_path.sh
+[275.650s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/ament_prefix_path.dsv
+[275.681s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/path.sh
+[275.714s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/path.dsv
+[275.759s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.bash
+[275.803s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.sh
+[275.838s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.zsh
+[275.870s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.dsv
+[275.904s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/package.dsv
+[275.936s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ament_index/resource_index/packages/ros_gz_interfaces
+[275.981s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/rosidl_cmake-extras.cmake
+[276.014s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[276.047s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[276.092s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[276.141s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[276.189s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[276.235s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[276.267s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfacesConfig.cmake
+[276.298s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfacesConfig-version.cmake
+[276.330s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/package.xml
+[276.362s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_c.so
+[276.363s] -- Set runtime path of "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_c.so" to ""
+[276.364s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so
+[276.365s] -- Set runtime path of "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[276.365s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[276.367s] -- Set runtime path of "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[276.367s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_c.so
+[276.368s] -- Set runtime path of "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[276.369s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_c.so
+[276.370s] -- Set runtime path of "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_c.so" to ""
+[276.370s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so
+[276.372s] -- Set runtime path of "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[276.372s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_cpp.so
+[276.373s] -- Set runtime path of "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_cpp.so" to ""
+[276.502s] Listing '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces'...
+[276.502s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/__init__.py'...
+[276.502s] Listing '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg'...
+[276.503s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/__init__.py'...
+[276.503s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_altimeter.py'...
+[276.503s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contact.py'...
+[276.503s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_contacts.py'...
+[276.503s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_dataframe.py'...
+[276.503s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity.py'...
+[276.504s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_factory.py'...
+[276.504s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_entity_wrench.py'...
+[276.504s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_float32_array.py'...
+[276.504s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_gui_camera.py'...
+[276.504s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_joint_wrench.py'...
+[276.504s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_light.py'...
+[276.505s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_material_color.py'...
+[276.505s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_param_vec.py'...
+[276.505s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_sensor_noise.py'...
+[276.505s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_string_vec.py'...
+[276.505s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_track_visual.py'...
+[276.505s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_video_record.py'...
+[276.506s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_control.py'...
+[276.506s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/msg/_world_reset.py'...
+[276.506s] Listing '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv'...
+[276.506s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/__init__.py'...
+[276.506s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_control_world.py'...
+[276.506s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_delete_entity.py'...
+[276.507s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_set_entity_pose.py'...
+[276.507s] Compiling '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages/ros_gz_interfaces/srv/_spawn_entity.py'...
+[276.510s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_py.so
+[276.511s] -- Set runtime path of "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_py.so" to ""
+[276.511s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cExport.cmake
+[276.511s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cExport-noconfig.cmake
+[276.512s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[276.512s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[276.513s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cppExport.cmake
+[276.513s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[276.513s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[276.514s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[276.514s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[276.515s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cExport.cmake
+[276.515s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[276.516s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[276.516s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[276.517s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cppExport.cmake
+[276.517s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[276.517s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_pyExport.cmake
+[276.518s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[276.522s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces

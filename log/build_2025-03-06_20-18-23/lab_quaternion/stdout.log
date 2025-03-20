@@ -1,0 +1,19 @@
+running develop
+running egg_info
+creating lab_quaternion.egg-info
+writing lab_quaternion.egg-info/PKG-INFO
+writing dependency_links to lab_quaternion.egg-info/dependency_links.txt
+writing entry points to lab_quaternion.egg-info/entry_points.txt
+writing requirements to lab_quaternion.egg-info/requires.txt
+writing top-level names to lab_quaternion.egg-info/top_level.txt
+writing manifest file 'lab_quaternion.egg-info/SOURCES.txt'
+reading manifest file 'lab_quaternion.egg-info/SOURCES.txt'
+writing manifest file 'lab_quaternion.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion/lib/python3.10/site-packages/lab-quaternion.egg-link (link to .)
+Installing gen3lite_pymoveit2 script to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion/lib/lab_quaternion
+Installing sort_cubes script to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion/lib/lab_quaternion
+Installing trajectory_from_csv script to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion/lib/lab_quaternion
+
+Installed /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/lab_quaternion
+running symlink_data

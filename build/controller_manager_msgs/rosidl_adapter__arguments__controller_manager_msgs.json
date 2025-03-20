@@ -1,0 +1,19 @@
+{
+  "package_name": "controller_manager_msgs",
+  "non_idl_tuples": [
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:msg/ControllerState.msg",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:msg/ChainConnection.msg",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:msg/HardwareComponentState.msg",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:msg/HardwareInterface.msg",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/ConfigureController.srv",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/ListControllers.srv",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/ListControllerTypes.srv",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/ListHardwareComponents.srv",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/ListHardwareInterfaces.srv",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/LoadController.srv",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/ReloadControllerLibraries.srv",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/SetHardwareComponentState.srv",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/SwitchController.srv",
+    "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/controller_manager_msgs:srv/UnloadController.srv"
+  ]
+}

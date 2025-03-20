@@ -1,0 +1,1 @@
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/control_msgs/rosidl_typesupport_introspection_c/control_msgs/msg/detail/dynamic_interface_group_values__rosidl_typesupport_introspection_c.h

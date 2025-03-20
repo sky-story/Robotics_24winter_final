@@ -1,0 +1,48 @@
+[0.908s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/lab_quaternion': PYTHONPATH=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lab_quaternion build --build-base /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/build install --record /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/install.log --single-version-externally-managed install_data
+[1.240s] running egg_info
+[1.241s] creating ../build/lab_quaternion/lab_quaternion.egg-info
+[1.241s] writing ../build/lab_quaternion/lab_quaternion.egg-info/PKG-INFO
+[1.241s] writing dependency_links to ../build/lab_quaternion/lab_quaternion.egg-info/dependency_links.txt
+[1.241s] writing entry points to ../build/lab_quaternion/lab_quaternion.egg-info/entry_points.txt
+[1.241s] writing requirements to ../build/lab_quaternion/lab_quaternion.egg-info/requires.txt
+[1.241s] writing top-level names to ../build/lab_quaternion/lab_quaternion.egg-info/top_level.txt
+[1.242s] writing manifest file '../build/lab_quaternion/lab_quaternion.egg-info/SOURCES.txt'
+[1.243s] reading manifest file '../build/lab_quaternion/lab_quaternion.egg-info/SOURCES.txt'
+[1.243s] writing manifest file '../build/lab_quaternion/lab_quaternion.egg-info/SOURCES.txt'
+[1.244s] running build
+[1.244s] running build_py
+[1.244s] creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/build
+[1.244s] creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/build/lib
+[1.244s] creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/build/lib/lab_quaternion
+[1.244s] copying lab_quaternion/pick_and_place.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/build/lib/lab_quaternion
+[1.244s] copying lab_quaternion/__init__.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/build/lib/lab_quaternion
+[1.244s] copying lab_quaternion/gen3lite_pymoveit2.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/build/lib/lab_quaternion
+[1.244s] running install
+[1.244s] running install_lib
+[1.245s] creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion
+[1.245s] copying /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/build/lib/lab_quaternion/pick_and_place.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion
+[1.245s] copying /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/build/lib/lab_quaternion/__init__.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion
+[1.245s] copying /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/build/lib/lab_quaternion/gen3lite_pymoveit2.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion
+[1.246s] byte-compiling /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion/pick_and_place.py to pick_and_place.cpython-310.pyc
+[1.247s] byte-compiling /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion/__init__.py to __init__.cpython-310.pyc
+[1.247s] byte-compiling /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion/gen3lite_pymoveit2.py to gen3lite_pymoveit2.cpython-310.pyc
+[1.248s] running install_data
+[1.248s] creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/share/ament_index
+[1.248s] creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/share/ament_index/resource_index
+[1.249s] creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/share/ament_index/resource_index/packages
+[1.249s] copying resource/lab_quaternion -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/share/ament_index/resource_index/packages
+[1.249s] copying package.xml -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/share/lab_quaternion
+[1.249s] creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/share/lab_quaternion/scripts
+[1.249s] copying scripts/sort_cubes.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/share/lab_quaternion/scripts
+[1.249s] creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/share/lab_quaternion/launch
+[1.249s] copying launch/sort_world.launch.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/share/lab_quaternion/launch
+[1.249s] creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/share/lab_quaternion/worlds
+[1.249s] copying worlds/sort_world.sdf -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/share/lab_quaternion/worlds
+[1.249s] running install_egg_info
+[1.251s] Copying ../build/lab_quaternion/lab_quaternion.egg-info to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion-0.0.0-py3.10.egg-info
+[1.252s] running install_scripts
+[1.279s] Installing gen3lite_pymoveit2 script to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/lab_quaternion
+[1.279s] Installing pick_and_place script to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/lab_quaternion
+[1.279s] Installing sort_cubes script to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/lab_quaternion
+[1.279s] writing list of installed files to '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/install.log'
+[1.304s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/lab_quaternion' returned '0': PYTHONPATH=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/install/lab_quaternion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lab_quaternion build --build-base /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/build install --record /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/build/lab_quaternion/install.log --single-version-externally-managed install_data

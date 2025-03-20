@@ -1,0 +1,1 @@
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api/_deps/kinova_binary_api-src/include/google/protobuf/compiler/js/well_known_types_embed.h

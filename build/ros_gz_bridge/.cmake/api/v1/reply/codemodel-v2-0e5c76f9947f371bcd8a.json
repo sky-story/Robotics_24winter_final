@@ -1,0 +1,256 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7b0e696f9e731fad1913.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros_gz_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bridge_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bridge_node-5d2dd0d2e7b1b9733c5d.json",
+					"name" : "bridge_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bridge_types::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bridge_types-9a887a8c00523f7b4cee.json",
+					"name" : "bridge_types",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-37c75a1ba80a1eac752c.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-695b419ca026e80d42cf.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parameter_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parameter_bridge-68f1e50a615007064e07.json",
+					"name" : "parameter_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_bridge-476ef48da3021bcfc015.json",
+					"name" : "ros_gz_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_bridge_bridge_config::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_bridge_bridge_config-19755186c20ced549e94.json",
+					"name" : "ros_gz_bridge_bridge_config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_bridge_uninstall-6208bc33e0dd4114e9e0.json",
+					"name" : "ros_gz_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static_bridge-8834254353056cb1edec.json",
+					"name" : "static_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_gz_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_gz_publisher-c01b1355e9f4e839700b.json",
+					"name" : "test_gz_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_gz_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_gz_server-05b7c2140882ed0f5dfa.json",
+					"name" : "test_gz_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_gz_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_gz_subscriber-4787672d0b8bc7e3afcf.json",
+					"name" : "test_gz_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_rcl_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_rcl_interfaces-2f84c15aece27afd5805.json",
+					"name" : "test_rcl_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_ros_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ros_client-2e5d23f14030189f8381.json",
+					"name" : "test_ros_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_ros_gz_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ros_gz_interfaces-07fa2b640fe0ce653957.json",
+					"name" : "test_ros_gz_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_ros_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ros_publisher-e2247651dcce3b28423a.json",
+					"name" : "test_ros_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_ros_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ros_subscriber-3c740c200dce1bdfea06.json",
+					"name" : "test_ros_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_utils-26a70af90cafa84dc280.json",
+					"name" : "test_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-73dbada9a64477189644.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_bridge",
+		"source" : "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros_gz/ros_gz_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

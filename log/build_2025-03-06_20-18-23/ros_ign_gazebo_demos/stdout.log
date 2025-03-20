@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_ign_gazebo_demos
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/air_pressure.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/battery.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/camera.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/depth_camera.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/diff_drive.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/gpu_lidar.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/gpu_lidar_bridge.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/image_bridge.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/imu.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/joint_states.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/magnetometer.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/rgbd_camera.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/rgbd_camera_bridge.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/robot_description_publisher.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/tf_bridge.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/launch/triggered_camera.launch.py
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ament_index/resource_index/package_run_dependencies/ros_ign_gazebo_demos
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ament_index/resource_index/parent_prefix_path/ros_ign_gazebo_demos
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/environment/ament_prefix_path.sh
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/environment/path.sh
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/environment/path.dsv
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/local_setup.bash
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/local_setup.sh
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/local_setup.zsh
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/local_setup.dsv
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/package.dsv
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ament_index/resource_index/packages/ros_ign_gazebo_demos
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/cmake/ros_ign_gazebo_demosConfig.cmake
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/cmake/ros_ign_gazebo_demosConfig-version.cmake
+-- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_ign_gazebo_demos/share/ros_ign_gazebo_demos/package.xml

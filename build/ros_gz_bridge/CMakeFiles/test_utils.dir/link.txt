@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtest_utils.a CMakeFiles/test_utils.dir/test/utils/gz_test_msg.cpp.o CMakeFiles/test_utils.dir/test/utils/ros_test_msg.cpp.o
+/usr/bin/ranlib libtest_utils.a

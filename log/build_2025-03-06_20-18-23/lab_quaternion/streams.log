@@ -1,0 +1,21 @@
+[5.209s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/lab_quaternion': PYTHONPATH=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/lab_quaternion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/lab_quaternion/build --no-deps symlink_data
+[66.286s] running develop
+[66.287s] running egg_info
+[66.287s] creating lab_quaternion.egg-info
+[66.287s] writing lab_quaternion.egg-info/PKG-INFO
+[66.287s] writing dependency_links to lab_quaternion.egg-info/dependency_links.txt
+[66.287s] writing entry points to lab_quaternion.egg-info/entry_points.txt
+[66.287s] writing requirements to lab_quaternion.egg-info/requires.txt
+[66.288s] writing top-level names to lab_quaternion.egg-info/top_level.txt
+[66.288s] writing manifest file 'lab_quaternion.egg-info/SOURCES.txt'
+[66.293s] reading manifest file 'lab_quaternion.egg-info/SOURCES.txt'
+[66.293s] writing manifest file 'lab_quaternion.egg-info/SOURCES.txt'
+[66.294s] running build_ext
+[66.294s] Creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion/lib/python3.10/site-packages/lab-quaternion.egg-link (link to .)
+[66.294s] Installing gen3lite_pymoveit2 script to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion/lib/lab_quaternion
+[66.294s] Installing sort_cubes script to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion/lib/lab_quaternion
+[66.294s] Installing trajectory_from_csv script to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion/lib/lab_quaternion
+[66.295s] 
+[66.295s] Installed /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/lab_quaternion
+[66.295s] running symlink_data
+[66.306s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/lab_quaternion' returned '0': PYTHONPATH=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/lab_quaternion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/lab_quaternion/build --no-deps symlink_data

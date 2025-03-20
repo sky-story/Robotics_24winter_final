@@ -1,0 +1,44 @@
+running develop
+Removing /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli.egg-link (link to .)
+running egg_info
+writing ../../../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
+reading manifest file '../../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build
+creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib
+creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli
+copying ros2controlcli/__init__.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli
+creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+copying ros2controlcli/api/__init__.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/list_controller_types.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/list_hardware_components.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/set_controller_state.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/list_controllers.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/__init__.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/load_controller.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/list_hardware_interfaces.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/view_controller_chains.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/switch_controllers.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/unload_controller.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/reload_controller_libraries.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/set_hardware_component_state.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+copying ros2controlcli/command/__init__.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+copying ros2controlcli/command/control.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2controlcli/share/ros2controlcli
+copying resource/ros2controlcli -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+running install_egg_info
+removing '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli-2.48.0-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/ros2controlcli/ros2controlcli.egg-info to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli-2.48.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2controlcli/install.log'

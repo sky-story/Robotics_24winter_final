@@ -1,0 +1,1 @@
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/hardware_interface/ament_generate_version_header/hardware_interface/hardware_interface/version.h

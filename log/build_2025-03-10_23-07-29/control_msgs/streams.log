@@ -1,0 +1,536 @@
+[0.176s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/ros2_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/control_msgs -- -j8 -l8
+[1.405s] [ 13%] Built target control_msgs__rosidl_generator_c
+[1.405s] [ 13%] Built target control_msgs__cpp
+[1.405s] [ 13%] Built target ament_cmake_python_symlink_control_msgs
+[1.406s] [ 25%] Built target control_msgs__rosidl_typesupport_fastrtps_c
+[1.406s] [ 38%] Built target control_msgs__rosidl_typesupport_introspection_cpp
+[1.406s] [ 50%] Built target control_msgs__rosidl_typesupport_introspection_c
+[1.406s] [ 74%] Built target control_msgs__rosidl_typesupport_fastrtps_cpp
+[1.406s] [ 74%] Built target control_msgs__rosidl_typesupport_c
+[1.406s] [ 86%] Built target control_msgs__rosidl_typesupport_cpp
+[1.407s] [ 86%] Built target control_msgs
+[1.407s] [ 86%] Built target control_msgs__py
+[1.498s] [ 97%] Built target control_msgs__rosidl_generator_py
+[1.626s] running egg_info
+[1.630s] writing control_msgs.egg-info/PKG-INFO
+[1.630s] writing dependency_links to control_msgs.egg-info/dependency_links.txt
+[1.631s] writing top-level names to control_msgs.egg-info/top_level.txt
+[1.641s] reading manifest file 'control_msgs.egg-info/SOURCES.txt'
+[1.644s] writing manifest file 'control_msgs.egg-info/SOURCES.txt'
+[1.760s] [ 97%] Built target ament_cmake_python_build_control_msgs_egg
+[1.763s] [ 98%] Built target control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.776s] [ 99%] Built target control_msgs__rosidl_typesupport_c__pyext
+[1.788s] [100%] Built target control_msgs__rosidl_typesupport_introspection_c__pyext
+[1.983s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/ros2_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/control_msgs -- -j8 -l8
+[1.986s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/ros2_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/control_msgs
+[2.128s] -- Install configuration: ""
+[2.128s] -- Execute custom install script
+[2.128s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/ament_index/resource_index/rosidl_interfaces/control_msgs
+[2.128s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__functions.h
+[2.128s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__struct.h
+[2.129s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__type_support.h
+[2.129s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__functions.h
+[2.129s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__struct.h
+[2.129s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__type_support.h
+[2.129s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__functions.h
+[2.129s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__struct.h
+[2.138s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__type_support.h
+[2.138s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__functions.h
+[2.138s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__struct.h
+[2.139s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__type_support.h
+[2.139s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__functions.h
+[2.139s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__struct.h
+[2.139s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__type_support.h
+[2.139s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__functions.h
+[2.139s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__struct.h
+[2.140s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__type_support.h
+[2.140s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/follow_joint_trajectory.h
+[2.143s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/gripper_command.h
+[2.144s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/joint_trajectory.h
+[2.144s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/parallel_gripper_command.h
+[2.148s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/point_head.h
+[2.148s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/single_joint_position.h
+[2.148s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/admittance_controller_state.h
+[2.148s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__functions.h
+[2.148s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__struct.h
+[2.148s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__type_support.h
+[2.149s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__functions.h
+[2.149s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__struct.h
+[2.149s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__type_support.h
+[2.149s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__functions.h
+[2.150s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__struct.h
+[2.150s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__type_support.h
+[2.158s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__functions.h
+[2.159s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__struct.h
+[2.159s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__type_support.h
+[2.159s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__functions.h
+[2.159s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__struct.h
+[2.160s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__type_support.h
+[2.161s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__functions.h
+[2.161s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__struct.h
+[2.161s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__type_support.h
+[2.161s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__functions.h
+[2.161s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__struct.h
+[2.162s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__type_support.h
+[2.164s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__functions.h
+[2.164s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__struct.h
+[2.165s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__type_support.h
+[2.168s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__functions.h
+[2.168s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__struct.h
+[2.168s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__type_support.h
+[2.174s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__functions.h
+[2.174s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__struct.h
+[2.174s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.h
+[2.175s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__functions.h
+[2.175s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__struct.h
+[2.175s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.h
+[2.176s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__functions.h
+[2.177s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__struct.h
+[2.177s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__type_support.h
+[2.177s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__functions.h
+[2.177s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__struct.h
+[2.178s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__type_support.h
+[2.178s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__functions.h
+[2.178s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__struct.h
+[2.178s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__type_support.h
+[2.178s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__functions.h
+[2.178s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__struct.h
+[2.179s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__type_support.h
+[2.179s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__functions.h
+[2.179s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__struct.h
+[2.179s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__type_support.h
+[2.179s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__functions.h
+[2.180s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__struct.h
+[2.180s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__type_support.h
+[2.180s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_interface_group_values.h
+[2.180s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_joint_state.h
+[2.180s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/gripper_command.h
+[2.180s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/interface_value.h
+[2.180s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_component_tolerance.h
+[2.181s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_controller_state.h
+[2.182s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_jog.h
+[2.182s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_tolerance.h
+[2.182s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_trajectory_controller_state.h
+[2.183s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/mecanum_drive_controller_state.h
+[2.183s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/multi_dof_command.h
+[2.183s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/multi_dof_state_stamped.h
+[2.183s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/pid_state.h
+[2.184s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.185s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/single_dof_state.h
+[2.185s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/single_dof_state_stamped.h
+[2.185s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/steering_controller_status.h
+[2.185s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__functions.h
+[2.185s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__struct.h
+[2.189s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__type_support.h
+[2.189s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__functions.h
+[2.189s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__struct.h
+[2.190s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__type_support.h
+[2.239s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/query_calibration_state.h
+[2.243s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/query_trajectory_state.h
+[2.244s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/environment/library_path.sh
+[2.244s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/environment/library_path.dsv
+[2.250s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[2.250s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[2.250s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[2.250s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__rosidl_typesupport_fastrtps_c.h
+[2.250s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_fastrtps_c.h
+[2.251s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_fastrtps_c.h
+[2.254s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_fastrtps_c.h
+[2.255s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__rosidl_typesupport_fastrtps_c.h
+[2.255s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_fastrtps_c.h
+[2.256s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[2.256s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_fastrtps_c.h
+[2.256s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_fastrtps_c.h
+[2.256s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_c.h
+[2.256s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_fastrtps_c.h
+[2.264s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_fastrtps_c.h
+[2.264s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_fastrtps_c.h
+[2.265s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_fastrtps_c.h
+[2.265s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__rosidl_typesupport_fastrtps_c.h
+[2.265s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__rosidl_typesupport_fastrtps_c.h
+[2.265s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_fastrtps_c.h
+[2.265s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__rosidl_typesupport_fastrtps_c.h
+[2.266s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__rosidl_typesupport_fastrtps_c.h
+[2.266s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_fastrtps_c.h
+[2.266s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.266s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_fastrtps_c.h
+[2.266s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_fastrtps_c.h
+[2.267s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__builder.hpp
+[2.272s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__struct.hpp
+[2.272s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__traits.hpp
+[2.277s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__type_support.hpp
+[2.280s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__builder.hpp
+[2.280s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__struct.hpp
+[2.281s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__traits.hpp
+[2.284s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__type_support.hpp
+[2.284s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__builder.hpp
+[2.284s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__struct.hpp
+[2.284s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__traits.hpp
+[2.284s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__type_support.hpp
+[2.284s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__builder.hpp
+[2.289s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__struct.hpp
+[2.289s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__traits.hpp
+[2.289s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__type_support.hpp
+[2.289s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__builder.hpp
+[2.289s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__struct.hpp
+[2.290s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__traits.hpp
+[2.290s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__type_support.hpp
+[2.290s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__builder.hpp
+[2.290s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__struct.hpp
+[2.290s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__traits.hpp
+[2.290s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__type_support.hpp
+[2.291s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/follow_joint_trajectory.hpp
+[2.291s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/gripper_command.hpp
+[2.291s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/joint_trajectory.hpp
+[2.291s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/parallel_gripper_command.hpp
+[2.291s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/point_head.hpp
+[2.292s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/single_joint_position.hpp
+[2.296s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/admittance_controller_state.hpp
+[2.296s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__builder.hpp
+[2.296s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__struct.hpp
+[2.296s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__traits.hpp
+[2.300s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__type_support.hpp
+[2.300s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__builder.hpp
+[2.300s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__struct.hpp
+[2.309s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__traits.hpp
+[2.315s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__type_support.hpp
+[2.315s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__builder.hpp
+[2.315s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__struct.hpp
+[2.315s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__traits.hpp
+[2.315s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__type_support.hpp
+[2.315s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__builder.hpp
+[2.315s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__struct.hpp
+[2.316s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__traits.hpp
+[2.316s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__type_support.hpp
+[2.317s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__builder.hpp
+[2.317s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__struct.hpp
+[2.317s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__traits.hpp
+[2.317s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__type_support.hpp
+[2.317s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__builder.hpp
+[2.317s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__struct.hpp
+[2.328s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__traits.hpp
+[2.328s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__type_support.hpp
+[2.328s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__builder.hpp
+[2.330s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__struct.hpp
+[2.332s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__traits.hpp
+[2.332s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__type_support.hpp
+[2.332s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__builder.hpp
+[2.332s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__struct.hpp
+[2.333s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__traits.hpp
+[2.333s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__type_support.hpp
+[2.341s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__builder.hpp
+[2.341s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__struct.hpp
+[2.341s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__traits.hpp
+[2.342s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__type_support.hpp
+[2.342s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__builder.hpp
+[2.342s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__struct.hpp
+[2.342s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__traits.hpp
+[2.342s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.hpp
+[2.343s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__builder.hpp
+[2.343s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__struct.hpp
+[2.343s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__traits.hpp
+[2.343s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.hpp
+[2.344s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__builder.hpp
+[2.344s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__struct.hpp
+[2.352s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__traits.hpp
+[2.352s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__type_support.hpp
+[2.352s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__builder.hpp
+[2.352s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__struct.hpp
+[2.352s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__traits.hpp
+[2.352s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__type_support.hpp
+[2.352s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__builder.hpp
+[2.353s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__struct.hpp
+[2.353s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__traits.hpp
+[2.353s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__type_support.hpp
+[2.354s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__builder.hpp
+[2.354s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__struct.hpp
+[2.354s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__traits.hpp
+[2.354s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__type_support.hpp
+[2.354s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__builder.hpp
+[2.358s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__struct.hpp
+[2.358s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__traits.hpp
+[2.358s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__type_support.hpp
+[2.358s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__builder.hpp
+[2.358s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__struct.hpp
+[2.359s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__traits.hpp
+[2.359s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__type_support.hpp
+[2.359s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_interface_group_values.hpp
+[2.359s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_joint_state.hpp
+[2.359s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/gripper_command.hpp
+[2.360s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/interface_value.hpp
+[2.360s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_component_tolerance.hpp
+[2.360s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_controller_state.hpp
+[2.360s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_jog.hpp
+[2.361s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_tolerance.hpp
+[2.363s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_trajectory_controller_state.hpp
+[2.363s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/mecanum_drive_controller_state.hpp
+[2.363s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/multi_dof_command.hpp
+[2.363s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/multi_dof_state_stamped.hpp
+[2.364s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/pid_state.hpp
+[2.364s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.364s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/single_dof_state.hpp
+[2.365s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/single_dof_state_stamped.hpp
+[2.365s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/steering_controller_status.hpp
+[2.365s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__builder.hpp
+[2.365s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__struct.hpp
+[2.369s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__traits.hpp
+[2.369s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__type_support.hpp
+[2.369s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__builder.hpp
+[2.369s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__struct.hpp
+[2.370s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__traits.hpp
+[2.374s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__type_support.hpp
+[2.374s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/query_calibration_state.hpp
+[2.374s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/query_trajectory_state.hpp
+[2.374s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[2.374s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.387s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[2.387s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.387s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_fastrtps_cpp.hpp
+[2.387s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.388s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.388s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__rosidl_typesupport_fastrtps_cpp.hpp
+[2.388s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.388s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.388s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_fastrtps_cpp.hpp
+[2.388s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_fastrtps_cpp.hpp
+[2.388s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.389s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_fastrtps_cpp.hpp
+[2.389s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_fastrtps_cpp.hpp
+[2.389s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.389s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.389s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.389s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[2.390s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.390s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.390s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[2.390s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.396s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.396s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.396s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.398s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_introspection_c.h
+[2.398s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[2.398s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[2.398s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__rosidl_typesupport_introspection_c.h
+[2.403s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_introspection_c.h
+[2.403s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_introspection_c.h
+[2.403s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_introspection_c.h
+[2.403s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__rosidl_typesupport_introspection_c.h
+[2.403s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_introspection_c.h
+[2.404s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[2.404s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_introspection_c.h
+[2.404s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_introspection_c.h
+[2.404s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_introspection_c.h
+[2.404s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_introspection_c.h
+[2.404s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_introspection_c.h
+[2.405s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_introspection_c.h
+[2.405s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_introspection_c.h
+[2.405s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__rosidl_typesupport_introspection_c.h
+[2.405s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__rosidl_typesupport_introspection_c.h
+[2.406s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_introspection_c.h
+[2.406s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__rosidl_typesupport_introspection_c.h
+[2.406s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__rosidl_typesupport_introspection_c.h
+[2.406s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_introspection_c.h
+[2.406s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.407s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_introspection_c.h
+[2.407s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_introspection_c.h
+[2.407s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[2.407s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[2.408s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[2.408s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[2.408s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_introspection_cpp.hpp
+[2.421s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_introspection_cpp.hpp
+[2.421s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[2.421s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__rosidl_typesupport_introspection_cpp.hpp
+[2.421s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[2.422s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[2.422s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_introspection_cpp.hpp
+[2.422s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_introspection_cpp.hpp
+[2.422s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[2.422s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_introspection_cpp.hpp
+[2.422s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_introspection_cpp.hpp
+[2.422s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[2.423s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[2.423s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__rosidl_typesupport_introspection_cpp.hpp
+[2.433s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[2.433s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_introspection_cpp.hpp
+[2.433s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__rosidl_typesupport_introspection_cpp.hpp
+[2.433s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[2.435s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_introspection_cpp.hpp
+[2.435s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_introspection_cpp.hpp
+[2.435s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_introspection_cpp.hpp
+[2.435s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/environment/pythonpath.sh
+[2.440s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/environment/pythonpath.dsv
+[2.440s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.7.0-py3.10.egg-info/PKG-INFO
+[2.440s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.7.0-py3.10.egg-info/SOURCES.txt
+[2.440s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.7.0-py3.10.egg-info/dependency_links.txt
+[2.443s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.7.0-py3.10.egg-info/top_level.txt
+[2.445s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/__init__.py
+[2.445s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/_control_msgs_s.ep.rosidl_typesupport_c.c
+[2.446s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.446s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/_control_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.446s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/__init__.py
+[2.446s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_follow_joint_trajectory.py
+[2.453s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_follow_joint_trajectory_s.c
+[2.453s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_gripper_command.py
+[2.453s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_gripper_command_s.c
+[2.454s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_joint_trajectory.py
+[2.454s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_joint_trajectory_s.c
+[2.454s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_parallel_gripper_command.py
+[2.454s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_parallel_gripper_command_s.c
+[2.454s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_point_head.py
+[2.454s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_point_head_s.c
+[2.454s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_single_joint_position.py
+[2.455s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_single_joint_position_s.c
+[2.455s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.455s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.455s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.455s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/libcontrol_msgs__rosidl_generator_py.so
+[2.455s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/__init__.py
+[2.455s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_admittance_controller_state.py
+[2.455s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_admittance_controller_state_s.c
+[2.456s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_dynamic_interface_group_values.py
+[2.456s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_dynamic_interface_group_values_s.c
+[2.456s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_dynamic_joint_state.py
+[2.456s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_dynamic_joint_state_s.c
+[2.456s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_gripper_command.py
+[2.457s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_gripper_command_s.c
+[2.461s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_interface_value.py
+[2.461s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_interface_value_s.c
+[2.461s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_component_tolerance.py
+[2.461s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_component_tolerance_s.c
+[2.461s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_controller_state.py
+[2.461s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_controller_state_s.c
+[2.462s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_jog.py
+[2.462s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_jog_s.c
+[2.462s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_tolerance.py
+[2.462s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_tolerance_s.c
+[2.462s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_trajectory_controller_state.py
+[2.462s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_trajectory_controller_state_s.c
+[2.463s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_mecanum_drive_controller_state.py
+[2.463s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_mecanum_drive_controller_state_s.c
+[2.463s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_multi_dof_command.py
+[2.463s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_multi_dof_command_s.c
+[2.463s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_multi_dof_state_stamped.py
+[2.463s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_multi_dof_state_stamped_s.c
+[2.465s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_pid_state.py
+[2.465s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_pid_state_s.c
+[2.465s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_single_dof_state.py
+[2.465s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_single_dof_state_s.c
+[2.466s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_single_dof_state_stamped.py
+[2.466s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_single_dof_state_stamped_s.c
+[2.466s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_steering_controller_status.py
+[2.466s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_steering_controller_status_s.c
+[2.466s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/__init__.py
+[2.466s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_calibration_state.py
+[2.466s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_calibration_state_s.c
+[2.466s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_trajectory_state.py
+[2.469s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_trajectory_state_s.c
+[2.469s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.469s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.470s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.470s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/action/ParallelGripperCommand.idl
+[2.470s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/action/FollowJointTrajectory.idl
+[2.470s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/action/GripperCommand.idl
+[2.470s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/action/JointTrajectory.idl
+[2.470s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/action/PointHead.idl
+[2.479s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/action/SingleJointPosition.idl
+[2.479s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/AdmittanceControllerState.idl
+[2.479s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/DynamicInterfaceGroupValues.idl
+[2.480s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/DynamicJointState.idl
+[2.480s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/GripperCommand.idl
+[2.480s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/InterfaceValue.idl
+[2.480s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/JointComponentTolerance.idl
+[2.480s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/JointControllerState.idl
+[2.480s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/JointJog.idl
+[2.480s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/JointTolerance.idl
+[2.480s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.idl
+[2.481s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/MecanumDriveControllerState.idl
+[2.489s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/MultiDOFCommand.idl
+[2.489s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/MultiDOFStateStamped.idl
+[2.489s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/PidState.idl
+[2.489s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/SingleDOFState.idl
+[2.490s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/SingleDOFStateStamped.idl
+[2.490s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/SteeringControllerStatus.idl
+[2.490s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState.idl
+[2.490s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState.idl
+[2.490s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/action/ParallelGripperCommand.action
+[2.490s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/action/FollowJointTrajectory.action
+[2.491s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/action/GripperCommand.action
+[2.491s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/action/JointTrajectory.action
+[2.491s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/action/PointHead.action
+[2.491s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/action/SingleJointPosition.action
+[2.491s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/AdmittanceControllerState.msg
+[2.492s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/DynamicInterfaceGroupValues.msg
+[2.496s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/DynamicJointState.msg
+[2.496s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/GripperCommand.msg
+[2.496s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/InterfaceValue.msg
+[2.496s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/JointComponentTolerance.msg
+[2.496s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/JointControllerState.msg
+[2.496s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/JointJog.msg
+[2.497s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/JointTolerance.msg
+[2.497s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.msg
+[2.497s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/MecanumDriveControllerState.msg
+[2.497s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/MultiDOFCommand.msg
+[2.497s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/MultiDOFStateStamped.msg
+[2.497s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/PidState.msg
+[2.497s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/SingleDOFState.msg
+[2.498s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/SingleDOFStateStamped.msg
+[2.498s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/msg/SteeringControllerStatus.msg
+[2.498s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState.srv
+[2.498s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState_Request.msg
+[2.498s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState_Response.msg
+[2.498s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState.srv
+[2.498s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState_Request.msg
+[2.499s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState_Response.msg
+[2.499s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/ament_index/resource_index/package_run_dependencies/control_msgs
+[2.499s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/ament_index/resource_index/parent_prefix_path/control_msgs
+[2.499s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/environment/ament_prefix_path.sh
+[2.499s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/environment/ament_prefix_path.dsv
+[2.499s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/environment/path.sh
+[2.499s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/environment/path.dsv
+[2.515s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/local_setup.bash
+[2.515s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/local_setup.sh
+[2.515s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/local_setup.zsh
+[2.515s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/local_setup.dsv
+[2.515s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/package.dsv
+[2.522s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/ament_index/resource_index/packages/control_msgs
+[2.522s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake-extras.cmake
+[2.522s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.523s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.523s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.523s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.523s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.532s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.532s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgsConfig.cmake
+[2.532s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgsConfig-version.cmake
+[2.532s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/package.xml
+[2.532s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_c.so
+[2.532s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so
+[2.533s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.533s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so
+[2.533s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_c.so
+[2.533s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so
+[2.533s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_cpp.so
+[2.591s] Listing '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs'...
+[2.591s] Listing '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action'...
+[2.591s] Listing '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg'...
+[2.591s] Listing '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv'...
+[2.601s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_py.so
+[2.602s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_cExport.cmake
+[2.603s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.603s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.606s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.606s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_cppExport.cmake
+[2.606s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.607s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.607s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.607s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.622s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cExport.cmake
+[2.623s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.623s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.623s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.623s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cppExport.cmake
+[2.623s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.624s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_pyExport.cmake
+[2.624s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.699s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/lab_quaternion:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/ros2_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/control_msgs

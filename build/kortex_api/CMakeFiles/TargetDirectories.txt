@@ -1,0 +1,9 @@
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api/CMakeFiles/uninstall.dir
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api/CMakeFiles/kortex_api_uninstall.dir
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api/CMakeFiles/test.dir
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api/CMakeFiles/edit_cache.dir
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api/CMakeFiles/rebuild_cache.dir
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api/CMakeFiles/list_install_components.dir
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api/CMakeFiles/install.dir
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api/CMakeFiles/install/local.dir
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_api/CMakeFiles/install/strip.dir

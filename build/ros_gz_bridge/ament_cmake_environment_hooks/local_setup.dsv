@@ -1,0 +1,3 @@
+source;share/ros_gz_bridge/environment/ament_prefix_path.sh
+source;share/ros_gz_bridge/environment/library_path.sh
+source;share/ros_gz_bridge/environment/path.sh

@@ -1,0 +1,15 @@
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ament_index/resource_index/package_run_dependencies/ros_gz
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ament_index/resource_index/parent_prefix_path/ros_gz
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ros_gz/environment/ament_prefix_path.sh
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ros_gz/environment/ament_prefix_path.dsv
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ros_gz/environment/path.sh
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ros_gz/environment/path.dsv
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ros_gz/local_setup.bash
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ros_gz/local_setup.sh
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ros_gz/local_setup.zsh
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ros_gz/local_setup.dsv
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ros_gz/package.dsv
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ament_index/resource_index/packages/ros_gz
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ros_gz/cmake/ros_gzConfig.cmake
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ros_gz/cmake/ros_gzConfig-version.cmake
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz/share/ros_gz/package.xml

@@ -1,0 +1,1 @@
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz/ament_cmake_core/ros_gzConfig-version.cmake

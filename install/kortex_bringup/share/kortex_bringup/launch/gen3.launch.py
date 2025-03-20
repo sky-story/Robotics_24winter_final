@@ -1,0 +1,1 @@
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros2_kortex/kortex_bringup/launch/gen3.launch.py

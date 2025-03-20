@@ -1,0 +1,1 @@
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces/rosidl_generator_py/ros_gz_interfaces/msg/_contacts_s.c

@@ -1,0 +1,1 @@
+/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_ign_interfaces/ament_cmake_core/ros_ign_interfacesConfig.cmake

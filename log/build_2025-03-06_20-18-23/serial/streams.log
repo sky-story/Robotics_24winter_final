@@ -1,0 +1,58 @@
+[0.237s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial
+[66.339s] -- The C compiler identification is GNU 11.4.0
+[66.340s] -- The CXX compiler identification is GNU 11.4.0
+[66.340s] -- Detecting C compiler ABI info
+[66.340s] -- Detecting C compiler ABI info - done
+[66.340s] -- Check for working C compiler: /usr/bin/cc - skipped
+[66.340s] -- Detecting C compile features
+[66.341s] -- Detecting C compile features - done
+[66.344s] -- Detecting CXX compiler ABI info
+[66.344s] -- Detecting CXX compiler ABI info - done
+[66.345s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[66.345s] -- Detecting CXX compile features
+[66.345s] -- Detecting CXX compile features - done
+[66.345s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[66.345s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[66.345s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[66.346s] -- Configuring done
+[66.346s] -- Generating done
+[66.346s] -- Build files have been written to: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/serial
+[66.410s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial
+[66.419s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/serial -- -j8 -l8
+[67.705s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[69.077s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[70.551s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[71.867s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[72.232s] [100%] Built target serial
+[72.297s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/serial -- -j8 -l8
+[72.299s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/serial
+[72.365s] -- Install configuration: ""
+[72.365s] -- Execute custom install script
+[72.366s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/include/serial/impl/unix.h
+[72.413s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/include/serial/impl/win.h
+[72.492s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/include/serial/serial.h
+[72.555s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/include/serial/v8stdint.h
+[72.609s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/environment/library_path.sh
+[72.658s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/environment/library_path.dsv
+[72.712s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[72.760s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[72.810s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[72.859s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[72.909s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/environment/path.sh
+[72.971s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/environment/path.dsv
+[73.054s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/local_setup.bash
+[73.134s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/local_setup.sh
+[73.179s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/local_setup.zsh
+[73.258s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/local_setup.dsv
+[73.323s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/package.dsv
+[73.368s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/ament_index/resource_index/packages/serial
+[73.413s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[73.459s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[73.505s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[73.550s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[73.602s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[73.688s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/package.xml
+[73.767s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/lib/libserial.a
+[73.767s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/cmake/export_serialExport.cmake
+[73.768s] -- Installing: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/serial/share/serial/cmake/export_serialExport-noconfig.cmake
+[73.778s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/serial

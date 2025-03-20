@@ -1,0 +1,40 @@
+running develop
+Removing /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt-joint-trajectory-controller.egg-link (link to .)
+running egg_info
+writing ../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+writing entry points to ../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/entry_points.txt
+writing requirements to ../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/requires.txt
+writing top-level names to ../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/top_level.txt
+reading manifest file '../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/rqt_joint_trajectory_controller/build
+creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/rqt_joint_trajectory_controller/build/lib
+creating /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/update_combo.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/utils.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/double_editor.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/__init__.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+copying rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+running install
+running install_lib
+running install_data
+copying resource/rqt_joint_trajectory_controller -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+copying resource/scope.svg -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+copying resource/off.svg -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+copying resource/joint_trajectory_controller.ui -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+copying resource/double_editor.ui -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+copying resource/on.svg -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+copying resource/scope.png -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+copying plugin.xml -> /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+running install_egg_info
+removing '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller-2.42.1-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller-2.42.1-py3.10.egg-info
+running install_scripts
+Installing rqt_joint_trajectory_controller script to /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+writing list of installed files to '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/rqt_joint_trajectory_controller/install.log'

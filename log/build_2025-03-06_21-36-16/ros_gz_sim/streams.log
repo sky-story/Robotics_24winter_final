@@ -1,0 +1,268 @@
+[0.055s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros_gz/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim
+[0.849s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.850s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.850s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.850s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.851s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.851s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.852s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.852s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.853s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.167s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.402s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.411s] -- Searching for dependencies of ignition-math6
+[1.414s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.418s] -- Searching for dependencies of ignition-transport11
+[1.557s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.572s] -- Checking for module 'libzmq >= 4'
+[1.645s] --   Found libzmq , version 4.3.4
+[1.777s] -- Checking for module 'uuid'
+[1.859s] --   Found uuid, version 2.37.2
+[2.013s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.016s] -- Searching for dependencies of ignition-utils1
+[2.019s] -- Searching for <ignition-utils1> component [cli]
+[2.020s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[2.021s] -- Searching for dependencies of ignition-utils1-cli
+[2.022s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.024s] -- Searching for dependencies of ignition-msgs8
+[2.103s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.104s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.122s] -- Checking for module 'tinyxml2'
+[2.225s] --   Found tinyxml2, version 9.0.0
+[2.366s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.366s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[2.368s] -- Searching for dependencies of ignition-gazebo6
+[2.369s] -- Looking for sdformat12 -- found version 12.8.0
+[2.369s] -- Searching for dependencies of sdformat12
+[2.390s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.391s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.394s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.395s] -- Searching for dependencies of ignition-plugin1
+[2.396s] -- Searching for <ignition-plugin1> component [loader]
+[2.400s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[2.400s] -- Searching for dependencies of ignition-plugin1-loader
+[2.402s] -- Searching for <ignition-plugin1> component [register]
+[2.403s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[2.404s] -- Searching for dependencies of ignition-plugin1-register
+[2.406s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.407s] -- Searching for dependencies of ignition-transport11
+[2.478s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.528s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.540s] -- Checking for module 'libzmq >= 4'
+[2.597s] --   Found libzmq , version 4.3.4
+[2.768s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.769s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.769s] -- Searching for <ignition-transport11> component [log]
+[2.769s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[2.769s] -- Searching for dependencies of ignition-transport11-log
+[2.770s] -- Searching for <ignition-transport11> component [parameters]
+[2.770s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[2.770s] -- Searching for dependencies of ignition-transport11-parameters
+[2.771s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.772s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.772s] -- Searching for dependencies of ignition-common4
+[2.772s] -- Looking for dlfcn.h - found
+[2.772s] -- Looking for libdl - found
+[2.789s] -- Searching for <ignition-common4> component [profiler]
+[2.790s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[2.793s] -- Searching for dependencies of ignition-common4-profiler
+[2.794s] -- Searching for <ignition-common4> component [events]
+[2.794s] -- Looking for ignition-common4-events -- found version 4.7.0
+[2.794s] -- Searching for dependencies of ignition-common4-events
+[2.794s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.796s] -- Searching for <ignition-common4> component [av]
+[2.796s] -- Looking for ignition-common4-av -- found version 4.7.0
+[2.800s] -- Searching for dependencies of ignition-common4-av
+[2.821s] -- Checking for module 'libswscale'
+[2.896s] --   Found libswscale, version 5.9.100
+[3.122s] -- Checking for module 'libavdevice >= 56.4.100'
+[3.253s] --   Found libavdevice , version 58.13.100
+[3.463s] -- Checking for module 'libavformat'
+[3.543s] --   Found libavformat, version 58.76.100
+[3.740s] -- Checking for module 'libavcodec'
+[3.856s] --   Found libavcodec, version 58.134.100
+[4.076s] -- Checking for module 'libavutil'
+[4.225s] --   Found libavutil, version 56.70.100
+[4.336s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[4.337s] -- Searching for dependencies of ignition-fuel_tools7
+[4.443s] -- Checking for module 'jsoncpp'
+[4.490s] --   Found jsoncpp, version 1.9.5
+[4.607s] -- Checking for module 'libzip'
+[4.655s] --   Found libzip, version 1.7.3
+[4.762s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.763s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.764s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[4.765s] -- Looking for ignition-gui6 -- found version 6.8.0
+[4.766s] -- Searching for dependencies of ignition-gui6
+[4.837s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[4.867s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.868s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.869s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.870s] -- Looking for ignition-transport11 -- found version 11.4.1
+[4.871s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[4.879s] -- Searching for dependencies of ignition-rendering6
+[4.880s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.880s] -- Searching for dependencies of ignition-math6
+[4.880s] -- Searching for <ignition-math6> component [eigen3]
+[4.881s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[4.881s] -- Searching for dependencies of ignition-math6-eigen3
+[4.883s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.886s] -- Searching for dependencies of ignition-common4
+[4.887s] -- Looking for dlfcn.h - found
+[4.887s] -- Looking for libdl - found
+[4.934s] -- Searching for <ignition-common4> component [graphics]
+[4.937s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[4.937s] -- Searching for dependencies of ignition-common4-graphics
+[4.938s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.938s] -- Looking for ignition-utils1 -- found version 1.5.1
+[4.941s] -- Searching for <ignition-common4> component [events]
+[4.946s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.948s] -- Searching for dependencies of ignition-plugin1
+[4.948s] -- Searching for <ignition-plugin1> component [all]
+[4.949s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[4.951s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.957s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[5.011s] -- Looking for ignition-physics5 -- found version 5.3.2
+[5.011s] -- Searching for dependencies of ignition-physics5
+[5.012s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.015s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[5.018s] -- Looking for ignition-utils1 -- found version 1.5.1
+[5.021s] -- Searching for <ignition-physics5> component [heightmap]
+[5.026s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[5.026s] -- Searching for dependencies of ignition-physics5-heightmap
+[5.026s] -- Looking for ignition-common4 -- found version 4.7.0
+[5.026s] -- Searching for <ignition-physics5> component [mesh]
+[5.027s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[5.028s] -- Searching for dependencies of ignition-physics5-mesh
+[5.029s] -- Looking for ignition-common4 -- found version 4.7.0
+[5.030s] -- Searching for <ignition-physics5> component [sdf]
+[5.031s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[5.032s] -- Searching for dependencies of ignition-physics5-sdf
+[5.035s] -- Looking for sdformat12 -- found version 12.8.0
+[5.036s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[5.036s] -- Searching for dependencies of ignition-sensors6
+[5.181s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[5.183s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.184s] -- Looking for ignition-common4 -- found version 4.7.0
+[5.185s] -- Looking for ignition-transport11 -- found version 11.4.1
+[5.186s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[5.188s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[5.190s] -- Looking for sdformat12 -- found version 12.8.0
+[5.192s] -- Searching for <ignition-sensors6> component [air_pressure]
+[5.194s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.1
+[5.194s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[5.195s] -- Searching for <ignition-sensors6> component [altimeter]
+[5.196s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.1
+[5.197s] -- Searching for dependencies of ignition-sensors6-altimeter
+[5.198s] -- Searching for <ignition-sensors6> component [imu]
+[5.199s] -- Looking for ignition-sensors6-imu -- found version 6.8.1
+[5.200s] -- Searching for dependencies of ignition-sensors6-imu
+[5.201s] -- Searching for <ignition-sensors6> component [force_torque]
+[5.201s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.1
+[5.203s] -- Searching for dependencies of ignition-sensors6-force_torque
+[5.204s] -- Searching for <ignition-sensors6> component [logical_camera]
+[5.205s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.1
+[5.206s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[5.208s] -- Searching for <ignition-sensors6> component [magnetometer]
+[5.209s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.1
+[5.210s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[5.213s] -- Searching for <ignition-sensors6> component [navsat]
+[5.213s] -- Looking for ignition-sensors6-navsat -- found version 6.8.1
+[5.214s] -- Searching for dependencies of ignition-sensors6-navsat
+[5.218s] -- Searching for <ignition-sensors6> component [rendering]
+[5.218s] -- Looking for ignition-sensors6-rendering -- found version 6.8.1
+[5.218s] -- Searching for dependencies of ignition-sensors6-rendering
+[5.219s] -- Searching for <ignition-sensors6> component [lidar]
+[5.222s] -- Looking for ignition-sensors6-lidar -- found version 6.8.1
+[5.223s] -- Searching for dependencies of ignition-sensors6-lidar
+[5.223s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[5.224s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[5.225s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1
+[5.225s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[5.232s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[5.232s] -- Searching for <ignition-sensors6> component [camera]
+[5.233s] -- Looking for ignition-sensors6-camera -- found version 6.8.1
+[5.233s] -- Searching for dependencies of ignition-sensors6-camera
+[5.233s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[5.233s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[5.234s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1
+[5.236s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[5.237s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[5.238s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1
+[5.240s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[5.242s] -- Searching for <ignition-sensors6> component [depth_camera]
+[5.242s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.1
+[5.244s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[5.244s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[5.246s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[5.246s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1
+[5.253s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[5.253s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[5.253s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[5.254s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1
+[5.254s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[5.254s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[5.257s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[5.257s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.258s] -- Looking for ignition-utils1 -- found version 1.5.1
+[5.346s] -- Compiling against Gazebo Fortress
+[5.348s] -- Looking for gflags - found
+[5.348s] 
+[5.394s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.601s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.603s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.641s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.642s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.643s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros_gz/ros_gz_sim/include>
+[5.643s] -- Configured cppcheck exclude dirs and/or files: 
+[5.644s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.644s] -- Configured cpplint exclude dirs and/or files: 
+[5.645s] -- Added test 'lint_cmake' to check CMake code style
+[5.647s] -- Added test 'uncrustify' to check C / C++ code style
+[5.647s] -- Configured uncrustify additional arguments: 
+[5.648s] -- Added test 'xmllint' to check XML markup files
+[5.652s] -- Configuring done
+[5.746s] -- Generating done
+[5.763s] -- Build files have been written to: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_sim
+[5.786s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros_gz/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim
+[5.787s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_sim -- -j8 -l8
+[5.944s] [35m[1mConsolidate compiler generated dependencies of target ros_gz_sim[0m
+[5.945s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[5.946s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[5.947s] [35m[1mConsolidate compiler generated dependencies of target create[0m
+[6.000s] [ 20%] Built target gtest
+[6.001s] [ 40%] Built target ros_gz_sim
+[6.005s] [ 60%] Built target gtest_main
+[6.011s] [ 80%] Built target create
+[6.039s] [35m[1mConsolidate compiler generated dependencies of target test_stopwatch[0m
+[6.083s] [100%] Built target test_stopwatch
+[6.114s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_sim -- -j8 -l8
+[6.118s] Invoking command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_sim
+[6.142s] -- Install configuration: ""
+[6.145s] -- Execute custom install script
+[6.146s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/include/ros_gz_sim/Stopwatch.hpp
+[6.148s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/launch/gz_sim.launch.py
+[6.149s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/lib/ros_gz_sim/create
+[6.149s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/lib/ros_gz_sim/test_stopwatch
+[6.150s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ament_index/resource_index/package_run_dependencies/ros_gz_sim
+[6.150s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ament_index/resource_index/parent_prefix_path/ros_gz_sim
+[6.150s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/environment/ament_prefix_path.sh
+[6.151s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/environment/ament_prefix_path.dsv
+[6.151s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/environment/path.sh
+[6.151s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/environment/path.dsv
+[6.151s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/local_setup.bash
+[6.152s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/local_setup.sh
+[6.152s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/local_setup.zsh
+[6.152s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/local_setup.dsv
+[6.152s] -- Symlinking: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/package.dsv
+[6.174s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ament_index/resource_index/packages/ros_gz_sim
+[6.176s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ament_cmake_export_targets-extras.cmake
+[6.176s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.177s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simConfig.cmake
+[6.177s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simConfig-version.cmake
+[6.177s] -- Up-to-date symlink: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/package.xml
+[6.178s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/lib/libros_gz_sim.so
+[6.178s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simExport.cmake
+[6.178s] -- Up-to-date: /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simExport-noconfig.cmake
+[6.298s] Invoked command in '/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_joint_trajectory_controller:/home/ningbo@netid.washington.edu/robotics/my_ws/install/rqt_controller_manager:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/robotics/my_ws/install/ros2_control_demo_testing:/home/ningbo@netid.washington.edu/robotics/my_ws/install/pick_place:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2controlcli:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_controllers_test_nodes:/home/ningbo@netid.washington.edu/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_sim

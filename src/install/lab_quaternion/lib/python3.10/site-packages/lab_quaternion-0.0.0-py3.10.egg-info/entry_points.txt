@@ -1,0 +1,5 @@
+[console_scripts]
+gen3lite_pymoveit2 = lab_quaternion.gen3lite_pymoveit2:main
+pick_and_place = lab_quaternion.pick_and_place:main
+sort_cubes = lab_quaternion.sort_cubes:main
+

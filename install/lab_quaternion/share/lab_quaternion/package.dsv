@@ -1,0 +1,6 @@
+source;share/lab_quaternion/hook/pythonpath.ps1
+source;share/lab_quaternion/hook/pythonpath.dsv
+source;share/lab_quaternion/hook/pythonpath.sh
+source;share/lab_quaternion/hook/ament_prefix_path.ps1
+source;share/lab_quaternion/hook/ament_prefix_path.dsv
+source;share/lab_quaternion/hook/ament_prefix_path.sh
