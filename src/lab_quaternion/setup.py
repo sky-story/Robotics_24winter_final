@@ -30,10 +30,10 @@ setup(
             'pick_and_place_2 = lab_quaternion.pick_and_place_2:main',
             'final_pick = lab_quaternion.final_pick:main',
             'car_bonus = lab_quaternion.car_bonus:main',
-            'car = lab_quaternion.car:main',
             'final_car = lab_quaternion.final_car:main',
             'car_forward = lab_quaternion.car_forward:main',
             'car_back = lab_quaternion.car_back:main',
+            'car_basic = lab_quaternion.car_basic:main',
 	],
     },
 )
