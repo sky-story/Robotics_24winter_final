@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/loaned_state_interface.hpp

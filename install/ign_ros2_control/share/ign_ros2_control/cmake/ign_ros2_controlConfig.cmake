@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ign_ros2_control/ament_cmake_core/ign_ros2_controlConfig.cmake

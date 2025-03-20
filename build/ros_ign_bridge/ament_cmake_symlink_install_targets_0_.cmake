@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_ign_bridge/parameter_bridge" "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_ign_bridge/static_bridge" "TARGETS" "parameter_bridge" "static_bridge" "DESTINATION" "lib/ros_ign_bridge")

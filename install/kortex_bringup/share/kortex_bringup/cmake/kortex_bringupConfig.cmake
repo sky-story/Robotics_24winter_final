@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kortex_bringup/ament_cmake_core/kortex_bringupConfig.cmake

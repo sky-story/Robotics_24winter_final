@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/control_msgs/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_fastrtps_c.h

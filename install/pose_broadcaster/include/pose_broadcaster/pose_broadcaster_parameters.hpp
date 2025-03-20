@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/pose_broadcaster/include/pose_broadcaster/pose_broadcaster_parameters.hpp

@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_ign_interfaces/rosidl_generator_c/ros_ign_interfaces/srv/detail/spawn_entity__type_support.h

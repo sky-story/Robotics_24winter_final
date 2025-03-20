@@ -1,9 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2_control_demo_description/CMakeFiles/uninstall.dir
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2_control_demo_description/CMakeFiles/ros2_control_demo_description_uninstall.dir
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2_control_demo_description/CMakeFiles/test.dir
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2_control_demo_description/CMakeFiles/edit_cache.dir
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2_control_demo_description/CMakeFiles/rebuild_cache.dir
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2_control_demo_description/CMakeFiles/list_install_components.dir
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2_control_demo_description/CMakeFiles/install.dir
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2_control_demo_description/CMakeFiles/install/local.dir
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros2_control_demo_description/CMakeFiles/install/strip.dir

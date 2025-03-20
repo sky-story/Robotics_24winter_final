@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/control_msgs/rosidl_generator_c/control_msgs/msg/detail/joint_jog__type_support.h

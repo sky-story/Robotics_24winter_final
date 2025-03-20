@@ -1,4 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/realtime_tools/lib/librealtime_tools.so
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/realtime_tools/lib/libthread_priority.so
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-noconfig.cmake

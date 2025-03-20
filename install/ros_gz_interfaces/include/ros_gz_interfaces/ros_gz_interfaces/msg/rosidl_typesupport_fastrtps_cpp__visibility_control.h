@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_gz_interfaces/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

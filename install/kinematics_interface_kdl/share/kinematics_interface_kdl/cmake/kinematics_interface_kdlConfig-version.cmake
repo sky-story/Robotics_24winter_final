@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/kinematics_interface_kdl/ament_cmake_core/kinematics_interface_kdlConfig-version.cmake

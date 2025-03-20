@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/control_msgs/rosidl_cmake/srv/QueryTrajectoryState_Request.msg

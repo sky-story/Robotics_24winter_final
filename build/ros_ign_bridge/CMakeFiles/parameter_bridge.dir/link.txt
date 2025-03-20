@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wextra -Wpedantic CMakeFiles/parameter_bridge.dir/src/parameter_bridge_shim.cpp.o -o parameter_bridge  -Wl,-rpath,/opt/ros/humble/lib /opt/ros/humble/lib/libament_index_cpp.so 

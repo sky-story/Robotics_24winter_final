@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/pymoveit2/examples/ex_orientation_path_constraint.py

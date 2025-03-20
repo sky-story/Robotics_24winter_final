@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros2_kortex/kortex_bringup/launch/test_huge_joint_space_jump.launch.py

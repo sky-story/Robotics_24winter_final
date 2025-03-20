@@ -1,3 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/pose_broadcaster/lib/libpose_broadcaster.so
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/export_pose_broadcasterExport.cmake
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/pose_broadcaster/share/pose_broadcaster/cmake/export_pose_broadcasterExport-noconfig.cmake

@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_ign_interfaces/rosidl_typesupport_fastrtps_cpp/ros_ign_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_cpp.hpp

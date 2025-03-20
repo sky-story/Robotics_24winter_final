@@ -1,3 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport.cmake
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport-noconfig.cmake

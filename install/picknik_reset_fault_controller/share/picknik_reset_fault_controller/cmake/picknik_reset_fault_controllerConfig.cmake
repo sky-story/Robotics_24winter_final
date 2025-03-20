@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/picknik_reset_fault_controller/ament_cmake_core/picknik_reset_fault_controllerConfig.cmake

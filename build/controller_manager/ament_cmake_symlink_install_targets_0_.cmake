@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/controller_manager/libcontroller_manager.so" "TARGETS" "controller_manager" "RUNTIME_DESTINATION" "bin" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib")

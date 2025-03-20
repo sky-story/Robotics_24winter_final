@@ -1,3 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/position_controllers/lib/libposition_controllers.so
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/position_controllers/share/position_controllers/cmake/export_position_controllersExport.cmake
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/position_controllers/share/position_controllers/cmake/export_position_controllersExport-noconfig.cmake

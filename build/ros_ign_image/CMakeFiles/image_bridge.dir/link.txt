@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wextra -Wpedantic CMakeFiles/image_bridge.dir/src/image_bridge_shim.cpp.o -o image_bridge  -Wl,-rpath,/opt/ros/humble/lib /opt/ros/humble/lib/libament_index_cpp.so 

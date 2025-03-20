@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros2_kortex/kortex_description/grippers/robotiq_2f_140/README.md

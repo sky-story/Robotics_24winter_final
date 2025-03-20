@@ -1,3 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/lib/libros_gz_sim.so
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simExport.cmake
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simExport-noconfig.cmake

@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/build/ros_ign_image/ament_cmake_environment_hooks/local_setup.bash

@@ -1,1 +1,0 @@
-/home/ningbo@netid.washington.edu/robotics/my_ros2_ws/src/ros_gz/ros_gz_sim_demos/launch/tf_bridge.launch.py
